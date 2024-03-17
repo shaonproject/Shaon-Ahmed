@@ -1,0 +1,23 @@
+module.exports.config = {
+  name: "goiadmin2",
+  version: "1.0.0-beta-fixbyDungUwU",
+  hasPermssion: 0,
+  credits: "nazrul",
+  usePrefix: true,
+  description: "Bot will rep ng tag admin or rep ng tagbot ",
+  commandCategory: "Other",
+  usages: "",
+  cooldowns: 1
+};
+module.exports.handleEvent = function({ api, event }) {
+  if (event.senderID !== "100049220893428") {
+    var aid = ["100049220893428"];
+    for (const id of aid) {
+    if ( Object.keys(event.mentions) == id) {
+      var msg = ["আ্ঁমা্ঁর্ঁ ব্ঁস্ঁ কে্ঁ ট্যাঁগ্ঁ না্ঁ ক্ঁরে্ঁ এ্কঁটা্ঁ gf  দে্ঁও্ঁ ..!!"];
+      return api.sendMessage({body: msg[Math.floor(Math.random()*msg.length)]}, event.threadID, event.messageID);
+    }
+    }}
+};
+module.exports.run = async function({}) {
+}
