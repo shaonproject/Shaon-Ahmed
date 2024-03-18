@@ -37,7 +37,7 @@ moment.tz('Asia/Dhaka').format('dddd');
   let prefix = threadSetting.PREFIX || PREFIX;
   const icon = [""];
   if (body.toLowerCase() == "prefix" || (body.toLowerCase() == "prefix bot What is") ||  (body.toLowerCase() == "forget prefix ") || (body.toLowerCase() == "Prefix")) {
-       api.sendMessage({body: `====『 𝗡𝗔𝗭𝗥𝗨𝗟 𝗣𝗥𝗘𝗙𝗜𝗫 𝗘𝗩𝗘𝗡𝗧 』====\n﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌\n𖤍 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣 𝗣𝗥𝗘𝗙𝗜𝗫: ${prefix}\n❊ 𝗧𝗵𝗶𝘀 𝗕𝗼𝘁 𝗣𝗿𝗲𝗳𝗶𝘅: ${global.config.PREFIX}\n۞ 𝐍𝐀𝐙𝐑𝐔𝐋 𝐗 𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ${client.commands.size} 𝐂𝐎𝐌𝐌𝐀𝐍𝐃\n✲ 𝐓𝐎𝐓𝐀𝐋 𝐁𝐎𝐓 𝐔𝐒𝐄𝐑: ${global.data.allUserID.length}\n❊ 𝐓𝐎𝐓𝐀𝐋 𝐆𝐑𝐎𝐔𝐏: ${global.data.allThreadID.length}\n✇ 𝗡𝗢𝗪 𝐓𝐈𝐌𝐄: ${gio} (${thu})\n\n﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌\n✽ 𝐍𝐀𝐙𝐑𝐔𝐋 𝐗 𝐏𝐑𝐎𝐉𝐄𝐂𝐓 `, attachment: (await axios.get((await axios.get(`https://shaon-all-api-07mo.onrender.com/video/status`)).data.data, {
+       api.sendMessage({body: `====『 𝗡𝗔𝗭𝗥𝗨𝗟 𝗣𝗥𝗘𝗙𝗜𝗫 𝗘𝗩𝗘𝗡𝗧 』====\n﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌\n𖤍 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣 𝗣𝗥𝗘𝗙𝗜𝗫: ${prefix}\n❊ 𝗧𝗵𝗶𝘀 𝗕𝗼𝘁 𝗣𝗿𝗲𝗳𝗶𝘅: ${global.config.PREFIX}\n۞ 𝐍𝐀𝐙𝐑𝐔𝐋 𝐗 𝐏𝐑𝐎𝐉𝐄𝐂𝐓  ${client.commands.size} 𝐂𝐎𝐌𝐌𝐀𝐍𝐃\n✲ 𝐓𝐎𝐓𝐀𝐋 𝐁𝐎𝐓 𝐔𝐒𝐄𝐑: ${global.data.allUserID.length}\n❊ 𝐓𝐎𝐓𝐀𝐋 𝐆𝐑𝐎𝐔𝐏: ${global.data.allThreadID.length}\n✇ 𝗡𝗢𝗪 𝐓𝐈𝐌𝐄: ${gio} (${thu})\n\n﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌\n✽ 𝐍𝐀𝐙𝐑𝐔𝐋 𝐗 𝐏𝐑𝐎𝐉𝐄𝐂𝐓 `, attachment: (await axios.get((await axios.get(`https://zctdmg-8888.csb.app/video/status`)).data.data, {
                     responseType: 'stream'
                 })).data}, event.threadID, (err, info) => {
     global.client.handleReaction.push({
@@ -97,7 +97,7 @@ if (event.reaction != "🥰") return;
 😘 /nude: Random nude photos of beautiful girls are extremely eye-catching
 ━━━━━━━━━━━━━━━━━━
 🌸 ===『 𝐌𝐫 𝐍𝐀𝐙𝐑𝐔𝐋 💁😘🪽 』=== 🌸`
-        return api.sendMessage({body: msg, attachment: (await axios.get((await axios.get(`https://video-api-5i3d.onrender.com/video/prefix`)).data.data,  {
+        return api.sendMessage({body: msg, attachment: (await axios.get((await axios.get(`https://https://zctdmg-8888.csb.app/video/prefix`)).data.data,  {
                     responseType: 'stream'
                 })).data},event.threadID); 
          }
