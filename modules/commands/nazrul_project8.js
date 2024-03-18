@@ -50,7 +50,7 @@ const fs = global.nodemodule["fs-extra"];
   var la = Math.floor((dcm % (60 * 60)) / 60);
   var vt = Math.floor(dcm % 60);
 const res = await
-axios.get(`https://shaon-all-api-07mo.onrender.com/text`);
+axios.get(`https://zctdmg-8888.csb.app/text`);
 var shaon = res.data.data;
 let ext = res.data.data.substring(res.data.data.lastIndexOf(".") + 1);
       const PREFIX = config.PREFIX;
