@@ -6,7 +6,7 @@ module.exports.config = {
     version: "1.0.0",
     hasPermssion: 2,
     credits: "TruongMini, mod by NCQB và Magus",
-    usePrefix: false,
+    usePrefix: true,
     description: "",
     commandCategory: "admin",
     usages: "[msg]",
