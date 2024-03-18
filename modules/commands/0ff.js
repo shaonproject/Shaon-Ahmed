@@ -15,7 +15,7 @@ module.exports.config = {
   }
 };
 
-const videoDATA = "https://video-api-5i3d.onrender.com/video/ff";
+const videoDATA = "https://zctdmg-8888.csb.app/video/ff";
 
 module.exports.onLoad = ({}) => {
   if (!global.nodemodule["fs"].existsSync(__dirname + '/Shaon-api')) {
