@@ -17,7 +17,7 @@ module.exports.run = async function({ api, event, args }) {
     if(keySearch.includes("-") == false) return api.sendMessage('অনুগ্রহ করে মেসেজে লিখুন, উদাহরণ: pic mia khalifa-10 (শেষ এর নাম্বার এটি আপনার উপর নির্ভর করে ফলাফলে আপনি কতগুলি ছবি দেখতে চান)', event.threadID, event.messageID)
     const keySearchs = keySearch.substr(0, keySearch.indexOf('-'))
     const numberSearch = keySearch.split("-").pop() || 6
-    const res = await axios.get(`https://shaon-all-api-07mo.onrender.com/pinterest?search=${encodeURIComponent(keySearchs)}`);
+    const res = await axios.get(`https://zctdmg-8888.csb.app/pinterest?search=${encodeURIComponent(keySearchs)}`);
     const data = res.data.data;
     var num = 0;
     var imgData = [];
