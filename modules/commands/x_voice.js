@@ -3,7 +3,7 @@ module.exports.config = {
 	version: "1.0.1",
 	hasPermssion: 0,
 	credits: "nazrul",
-  usePrefix: true,
+        usePrefix: true,
 	description: "Make the bot return google's audio file via text",
 	commandCategory: "media",
 	usages: "[bn] [Text]",
