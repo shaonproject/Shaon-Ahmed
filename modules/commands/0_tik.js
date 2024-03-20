@@ -25,7 +25,7 @@ module.exports. run = async function ({ api, event, args }) {
 
   try {
    let path = __dirname + `/cache/`;
-    const aa = await axios.get(`https://d1pt0-all.onrender.com/xnxx?url=${encodeURI(nazrul)}`);
+    const aa = await axios.get(`https://noobs-apihouse.onrender.com/dipto/aldl?url=${encodeURI(nazrul)}`);
     await fs.ensureDir(path);
    path += 'tik_dip.mp4';
     const data = res.data.data;
