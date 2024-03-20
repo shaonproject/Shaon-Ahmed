@@ -10,7 +10,7 @@ module.exports.config = {
   'usages': "photoxy <no.> <text>",
   'cooldowns': 0xa
 };
-const API = "https://textpro-photoxy-api-b96b.onrender.com";
+const API = "https://textpro-photoxy.onrender.com";
 module.exports.run = async function ({
   api: _0x1bdc47,
   event: _0x2ed206,
