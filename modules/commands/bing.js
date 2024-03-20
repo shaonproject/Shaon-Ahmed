@@ -17,7 +17,7 @@ module.exports.run = async function({ api, event, args }) {
     const key = this.config.credits;
     if (!prompt) return api.sendMessage('use : /bing a attitude boy', event.threadID, event.messageID); 
 
-    const rndm = ['1g7YFQ8wXS-4rfjN4PbptrTMAhSNcIsBKxsW4bblcdHsUIqzserV4UAast0tGknUeYJcvQliC7bnAqaf0fswn6jdOUpqlrZNzuieqIhGqUBrQsmYOIBTTa-ot6oNi10e8xfYlOMwO8eUw3OLEgEKxsFD7x9aA8x1FBJrFquniXvAdvzI_itYgR7e9-yzV-x5xi8-6Grx05U2IbJRT5M5oJm2xxvMtG4jVHB2mPBKlmHA']; 
+    const rndm = ['1ZDo_2j7CBUDUl8KeqZ3CJGelW_qJU-X3L5gs3a6HtjiY3Wq1EVLAfsDSstCnnwDHhRbbL6ooU7mstfs6Z5lIulK9cCe7LxmNBu1Y_71UYYa1zD_XgMG8g58p_zijQIZ2sYhRXlO0kL0zdbrnAjr6KJkEerM8seSDEIUhCAwrI_Oh_N5KOjtlLNBe0CzRDbXlzc1n_wz-PStvb32oKR_UqIn9yar9ZXaDl-mKY72HCwI']; 
     var cookie = rndm[Math.floor(Math.random() * rndm.length)];
 
     const res = await axios.get(`https://bing-api-o95j.onrender.com/bing-img?key=${key}&cookie=${cookie}&prompt=${encodeURIComponent(prompt)}`);
