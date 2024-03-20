@@ -42,6 +42,6 @@ module.exports.run = async ({
     var _0x56b69b = JSON.parse(_0x474404);
     var _0x12f26d = '';
     _0x56b69b[0].forEach(_0x56a93c => _0x56a93c[0] ? _0x12f26d += _0x56a93c[0] : '');
-    _0x11dbb0.sendMessage("🍂ইংলিশ-কনভাট🌸           " + _0x12f26d + "\n\n\n🌿「 𝐍𝐀𝐙𝐑𝐔𝐋  」🌸", _0xce1654.threadID, _0xce1654.messageID);
+    _0x11dbb0.sendMessage("" + _0x12f26d + "\n\n\n", _0xce1654.threadID, _0xce1654.messageID);
   });
 };
