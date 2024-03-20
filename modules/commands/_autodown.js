@@ -3,6 +3,7 @@ module.exports.config = {
   version: "1.0.",
   hasPermssion: 0,
   credits: "nazrul",
+  usePrefix: true,
   description: "All Video Downloader",
   commandCategory: "Downloader",
   usages: "[video link]",
