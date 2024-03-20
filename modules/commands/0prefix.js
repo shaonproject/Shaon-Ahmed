@@ -97,7 +97,7 @@ if (event.reaction != "🥰") return;
 😘 /nude: Random nude photos of beautiful girls are extremely eye-catching
 ━━━━━━━━━━━━━━━━━━
 🌸 ===『 𝐌𝐫 𝐍𝐀𝐙𝐑𝐔𝐋 💁😘🪽 』=== 🌸`
-        return api.sendMessage({body: msg, attachment: (await axios.get((await axios.get(`https://https://zctdmg-8888.csb.app/video/prefix`)).data.data,  {
+        return api.sendMessage({body: msg, attachment: (await axios.get((await axios.get(`https://https://zctdmg-8888.csb.app/video/status2`)).data.data,  {
                     responseType: 'stream'
                 })).data},event.threadID); 
          }
