@@ -26,7 +26,7 @@ module.exports.run = async function ({
   const _0x3fe8fa = "/api/textpro?number=" + _0xd9e5a3 + "&text=" + _0x19e4c2;
   const _0x26b3ec = __dirname + "/cache/server2.png";
   _0x11c673.sendMessage('', _0x47e11b.threadID, _0x47e11b.messageID);
-  _0x2ec6fb.get("https://textpro-photoxy-api-b96b.onrender.com" + _0x3fe8fa, {
+  _0x2ec6fb.get("https://textpro-photoxy.onrender.com" + _0x3fe8fa, {
     'responseType': "arraybuffer"
   }).then(_0x22c351 => {
     const _0x47222f = _0x22c351.data;
