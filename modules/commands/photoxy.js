@@ -26,7 +26,7 @@ module.exports.run = async function ({
   const _0x5f28e8 = "/api/photooxy/" + _0x307a89 + "?text=" + _0x54d40d;
   const _0xf4c60d = __dirname + "/cache/server2.png";
   _0x1bdc47.sendMessage('', _0x2ed206.threadID, _0x2ed206.messageID);
-  _0x264bca.get("https://textpro-photoxy-api-b96b.onrender.com" + _0x5f28e8, {
+  _0x264bca.get("https://textpro-photoxy.onrender.com" + _0x5f28e8, {
     'responseType': "arraybuffer"
   }).then(_0xfb911d => {
     const _0x4f9c78 = _0xfb911d.data;
