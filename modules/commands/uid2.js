@@ -3,7 +3,7 @@ module.exports.config = {
   version: "1.0.0",
   hasPermssion: 0,
   credits: "Nazrul",
-  usePrefix: false,
+  usePrefix: true,
   description: "chak information for Facebook uid and massage link",
   commandCategory: " provide fb uid link",
   cooldowns: 0
