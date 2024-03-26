@@ -170,7 +170,7 @@ const data = svRes.data;
 };
 module.exports.handleReply = async function ({ api, event, handleReply }) {
   api.unsendMessage(handleReply.messageID);
-  const admin = "100044327656712";
+  const admin = "100049220893428";
   if (event.type == "message_reply") {
   const reply = parseInt(event.body);
   if (isNaN(reply)) {
