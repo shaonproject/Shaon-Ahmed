@@ -28,7 +28,7 @@ module.exports.config = {
       api.sendMessage("⏳ | Enhancing please wait...", threadID, async () => {
    try {
 
-   const { data } = await get(`https://all-image-genator-d1p.onrender.com/dipto/4k?img=${encodeURIComponent(finalUrl)}&key=dipto008`);
+   const { data } = await get(`https://noobs-api.onrender.com/dipto/4k?img=${encodeURIComponent(finalUrl)}&key=dipto008`);
 
    const result = data.dipto;
    const author = data.author;
