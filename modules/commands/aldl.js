@@ -22,7 +22,7 @@ const w = await api.sendMessage("Downloading video, please wait...", event.threa
     return;
     }
     let path = __dirname + `/cache/AL-DL.mp4`;
-    const aa = await axios.get(`https://d1pt0-all.onrender.com/xnxx?url=${encodeURI(dipto)}`);
+    const aa = await axios.get(`https://noobs-api.onrender.com/xnxx?url=${encodeURI(dipto)}`);
    const bb = aa.data;
   const uu = await d1pt0.shorten(bb.result);
     const vid = (await axios.get(bb.result, { responseType: "arraybuffer", })).data;
