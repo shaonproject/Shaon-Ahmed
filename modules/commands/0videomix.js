@@ -30,37 +30,37 @@ module.exports.run = async function({ api, event }) {
 
   const fs = require("fs");
 
-  var shaon = ["https://zctdmg-8888.csb.app/video/status",
+  var shaon = ["https://noobs-api-d7bl.onrender.com/video/status",
 
-"https://zctdmg-8888.csb.app/video/sad",
+"https://noobs-api-d7bl.onrender.com/video/sad",
 
-"https://zctdmg-8888.csb.app/video/baby",
+"https://noobs-api-d7bl.onrender.com/video/baby",
 
-"https://zctdmg-8888.csb.app/video/love",
+"https://noobs-api-d7bl.onrender.com/video/love",
 
-"https://zctdmg-8888.csb.app/video/ff",
+"https://noobs-api-d7bl.onrender.com/video/ff",
 
-"https://zctdmg-8888.csb.app/video/shairi",
+"https://noobs-api-d7bl.onrender.com/video/shairi",
 
-"https://zctdmg-8888.csb.app/video/humaiyun",
+"https://noobs-api-d7bl.onrender.com/video/humaiyun",
 
-"https://zctdmg-8888.csb.app/video/islam",
+"https://noobs-api-d7bl.onrender.com/video/islam",
 
-"https://zctdmg-8888.csb.app/video/anime",
+"https://noobs-api-d7bl.onrender.com/video/anime",
 
-"https://zctdmg-8888.csb.app/video/short",
+"https://noobs-api-d7bl.onrender.com/video/short",
 
-"https://zctdmg-8888.csb.app/video/event",
+"https://noobs-api-d7bl.onrender.com/video/event",
 
-"https://zctdmg-8888.csb.app/video/prefix",
+"https://noobs-api-d7bl.onrender.com/video/prefix",
 
-"https://zctdmg-8888.csb.app/video/cpl",
+"https://noobs-api-d7bl.onrender.com/video/cpl",
 
-"https://zctdmg-8888.csb.app/video/time",
+"https://noobs-api-d7bl.onrender.com/video/time",
 
-"https://zctdmg-8888.csb.app/video/lofi",
+"https://noobs-api-d7bl.onrender.com/video/lofi",
 
-"https://zctdmg-8888.csb.app/video/happy"
+"https://noobs-api-d7bl.onrender.com/video/happy"
 
 ]
 
