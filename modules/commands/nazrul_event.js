@@ -7,7 +7,7 @@ module.exports.config = {
   description: "prefix video",
   commandCategory: "command sign event video send",
   usages: "ig",
-  usePrefix: true,
+  usePrefix: false,
   cooldowns: 5,
   dependencies: {
     "request":"",
