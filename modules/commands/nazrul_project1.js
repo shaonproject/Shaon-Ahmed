@@ -49,36 +49,36 @@ module.exports.config = {
   function linkanh() {
         const p = require("axios");
         if ("1" == a.body)
-            var h = "https://zctdmg-8888.csb.app/video/islam";
+            var h = "https://noobs-api-d7bl.onrender.com/video/islam";
         else if ("2" == a.body)
-         var   h = "https://zctdmg-8888.csb.app/video/love";
+         var   h = "https://noobs-api-d7bl.onrender.com/video/love";
         else if ("3" == a.body)
-         var   h = "https://zctdmg-8888.csb.app/video/ayat";
+         var   h = "https://noobs-api-d7bl.onrender.com/video/ayat";
         else if ("4" == a.body)
-          var  h = "https://zctdmg-8888.csb.app/video/status";
+          var  h = "https://noobs-api-d7bl.onrender.com/video/status";
         else if ("5" == a.body)
-          var  h = "https://zctdmg-8888.csb.app/video/ff";
+          var  h = "https://noobs-api-d7bl.onrender.com/video/ff";
         else if ("6" == a.body)
-          var  h = "https://zctdmg-8888.csb.app/video/sad";
+          var  h = "https://noobs-api-d7bl.onrender.com/video/sad";
         else if ("7" == a.body)
-          var  h = "https://zctdmg-8888.csb.app/video/anime";
+          var  h = "https://noobs-api-d7bl.onrender.com/video/anime";
         else if ("8" == a.body)
-          var  h = "https://zctdmg-8888.csb.app/video/short";
+          var  h = "https://noobs-api-d7bl.onrender.com/video/short";
         else if ("9" == a.body)
-         var   h = "https://zctdmg-8888.csb.app/video/cpl";
+         var   h = "https://noobs-api-d7bl.onrender.com/video/cpl";
         else if ("10" == a.body)
-         var  h = "https://zctdmg-8888.csb.app/video/baby";
+         var  h = "https://noobs-api-d7bl.onrender.com/video/baby";
           else if ("11" == a.body)
-          var  h = "https://zctdmg-8888.csb.app/video/shairi";
+          var  h = "https://noobs-api-d7bl.onrender.com/video/shairi";
          else if ("12" == a.body)
-         var  h = "https://zctdmg-8888.csb.app/video/sex";
+         var  h = "https://noobs-api-d7bl.onrender.com/video/sex";
          else if ("13" == a.body)
-         var  h = "https://zctdmg-8888.csb.app/video/horny";
+         var  h = "https://noobs-api-d7bl.onrender.com/video/horny";
          else if ("14" == a.body)
-         var  h = "https://zctdmg-8888.csb.app/video/item";
+         var  h = "https://noobs-api-d7bl.onrender.com/video/item";
            else if ("15" == a.body)
          var  h =
-"https://zctdmg-8888.csb.app/video/hot";
+"https://noobs-api-d7bl.onrender.com/video/hot";
         return { p, h };
     }
 };
