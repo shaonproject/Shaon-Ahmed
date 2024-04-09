@@ -15,7 +15,7 @@ module.exports.config = {
   }
 };
 
-const videoDATA = "${global.config.album_api}/video/freefire";
+const videoDATA = "https://9db865f8-f202-46ed-8b3f-44b413fcd763-00-jwnwkt1muphb.spock.replit.dev/video/freefire";
 
 module.exports.onLoad = ({}) => {
   if (!global.nodemodule["fs"].existsSync(__dirname + '/Shaon-api')) {
