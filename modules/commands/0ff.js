@@ -15,7 +15,7 @@ module.exports.config = {
   }
 };
 
-const videoDATA = "https://zctdmg-8888.csb.app/video/ff";
+const videoDATA = "${global.config.album_api}/video/freefire";
 
 module.exports.onLoad = ({}) => {
   if (!global.nodemodule["fs"].existsSync(__dirname + '/Shaon-api')) {
