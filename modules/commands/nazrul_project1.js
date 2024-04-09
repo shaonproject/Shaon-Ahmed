@@ -49,36 +49,36 @@ module.exports.config = {
   function linkanh() {
         const p = require("axios");
         if ("1" == a.body)
-            var h = "https://noobs-api-d7bl.onrender.com/video/islam";
+            var h = "${global.config.album_api}/video/islam";
         else if ("2" == a.body)
-         var   h = "https://noobs-api-d7bl.onrender.com/video/love";
+         var   h = "${global.config.album_api}/video/love";
         else if ("3" == a.body)
-         var   h = "https://noobs-api-d7bl.onrender.com/video/ayat";
+         var   h = "${global.config.album_api}/video/ayat";
         else if ("4" == a.body)
-          var  h = "https://noobs-api-d7bl.onrender.com/video/status";
+          var  h = "${global.config.album_api}/video/status";
         else if ("5" == a.body)
-          var  h = "https://noobs-api-d7bl.onrender.com/video/ff";
+          var  h = "${global.config.album_api}/video/ff";
         else if ("6" == a.body)
-          var  h = "https://noobs-api-d7bl.onrender.com/video/sad";
+          var  h = "${global.config.album_api}/video/sad";
         else if ("7" == a.body)
-          var  h = "https://noobs-api-d7bl.onrender.com/video/anime";
+          var  h = "${global.config.album_api}/video/anime";
         else if ("8" == a.body)
-          var  h = "https://noobs-api-d7bl.onrender.com/video/short";
+          var  h = "${global.config.album_api}/video/short";
         else if ("9" == a.body)
-         var   h = "https://noobs-api-d7bl.onrender.com/video/cpl";
+         var   h = "${global.config.album_api}/video/cpl";
         else if ("10" == a.body)
-         var  h = "https://noobs-api-d7bl.onrender.com/video/baby";
+         var  h = "${global.config.album_api}/video/baby";
           else if ("11" == a.body)
-          var  h = "https://noobs-api-d7bl.onrender.com/video/shairi";
+          var  h = "${global.config.album_api}/video/shairi";
          else if ("12" == a.body)
-         var  h = "https://noobs-api-d7bl.onrender.com/video/sex";
+         var  h = "${global.config.album_api}/video/sex";
          else if ("13" == a.body)
-         var  h = "https://noobs-api-d7bl.onrender.com/video/horny";
+         var  h = "${global.config.album_api}/video/horny";
          else if ("14" == a.body)
-         var  h = "https://noobs-api-d7bl.onrender.com/video/item";
+         var  h = "${global.config.album_api}/video/item";
            else if ("15" == a.body)
          var  h =
-"https://noobs-api-d7bl.onrender.com/video/hot";
+"${global.config.album_api}/video/hot";
         return { p, h };
     }
 };
