@@ -6,7 +6,7 @@ module.exports.config = {
 
   hasPermssion: 0,
 
-  credits: "Shaon Ahmed",
+  credits: "Nazrul",
 
   description: "random love story video",
 
@@ -30,37 +30,37 @@ module.exports.run = async function({ api, event }) {
 
   const fs = require("fs");
 
-  var shaon = ["https://noobs-api-d7bl.onrender.com/video/status",
+  var shaon = ["${global.config.album_api}/video/status",
 
-"https://noobs-api-d7bl.onrender.com/video/sad",
+"${global.config.album_api}/video/sad",
 
-"https://noobs-api-d7bl.onrender.com/video/baby",
+"${global.config.album_api}/video/baby",
 
-"https://noobs-api-d7bl.onrender.com/video/love",
+"${global.config.album_api}/video/love",
 
-"https://noobs-api-d7bl.onrender.com/video/ff",
+"${global.config.album_api}/video/ff",
 
-"https://noobs-api-d7bl.onrender.com/video/shairi",
+"${global.config.album_api}/video/shairi",
 
-"https://noobs-api-d7bl.onrender.com/video/humaiyun",
+"${global.config.album_api}/video/humaiyun",
 
-"https://noobs-api-d7bl.onrender.com/video/islam",
+"${global.config.album_api}/video/islam",
 
-"https://noobs-api-d7bl.onrender.com/video/anime",
+"${global.config.album_api}/video/anime",
 
-"https://noobs-api-d7bl.onrender.com/video/short",
+"${global.config.album_api}/video/short",
 
-"https://noobs-api-d7bl.onrender.com/video/event",
+"${global.config.album_api}/video/event",
 
-"https://noobs-api-d7bl.onrender.com/video/prefix",
+"${global.config.album_api}/video/prefix",
 
-"https://noobs-api-d7bl.onrender.com/video/cpl",
+"${global.config.album_api}/video/cpl",
 
-"https://noobs-api-d7bl.onrender.com/video/time",
+"${global.config.album_api}/video/time",
 
-"https://noobs-api-d7bl.onrender.com/video/lofi",
+"${global.config.album_api}/video/lofi",
 
-"https://noobs-api-d7bl.onrender.com/video/happy"
+"${global.config.album_api}/video/happy"
 
 ]
 
