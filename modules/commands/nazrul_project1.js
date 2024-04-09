@@ -55,7 +55,7 @@ module.exports.config = {
         else if ("3" == a.body)
          var   h = "${global.config.album_api}/video/ayat";
         else if ("4" == a.body)
-          var  h = "${global.config.album_api}/video/status";
+          var  h = "https://9db865f8-f202-46ed-8b3f-44b413fcd763-00-jwnwkt1muphb.spock.replit.dev/video/status";
         else if ("5" == a.body)
           var  h = "${global.config.album_api}/video/ff";
         else if ("6" == a.body)
