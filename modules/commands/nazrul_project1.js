@@ -49,33 +49,33 @@ module.exports.config = {
   function linkanh() {
         const p = require("axios");
         if ("1" == a.body)
-            var h = "${global.config.album_api}/video/islam";
+            var h = "https://nazrul-apis.onrender.com/video/islam";
         else if ("2" == a.body)
-         var   h = "${global.config.album_api}/video/love";
+         var   h = "https://nazrul-apis.onrender.com/video/love";
         else if ("3" == a.body)
-         var   h = "${global.config.album_api}/video/ayat";
+         var   h = "https://nazrul-apis.onrender.com/video/ayat";
         else if ("4" == a.body)
-          var  h = "https://9db865f8-f202-46ed-8b3f-44b413fcd763-00-jwnwkt1muphb.spock.replit.dev/video/status";
+          var  h = "https://nazrul-apis.onrender.com/video/status2";
         else if ("5" == a.body)
-          var  h = "${global.config.album_api}/video/ff";
+          var  h = "https://nazrul-apis.onrender.com/video/freefire";
         else if ("6" == a.body)
-          var  h = "${global.config.album_api}/video/sad";
+          var  h = "https://nazrul-apis.onrender.com/video/sad";
         else if ("7" == a.body)
-          var  h = "${global.config.album_api}/video/anime";
+          var  h = "https://nazrul-apis.onrender.com/video/anime";
         else if ("8" == a.body)
-          var  h = "${global.config.album_api}/video/short";
+          var  h = "https://nazrul-apis.onrender.com/video/short";
         else if ("9" == a.body)
-         var   h = "${global.config.album_api}/video/cpl";
+         var   h = "https://nazrul-apis.onrender.com/video/cpl";
         else if ("10" == a.body)
-         var  h = "${global.config.album_api}/video/baby";
+         var  h = "https://nazrul-apis.onrender.com/video/baby";
           else if ("11" == a.body)
-          var  h = "${global.config.album_api}/video/shairi";
+          var  h = "https://nazrul-apis.onrender.com/video/shairi";
          else if ("12" == a.body)
-         var  h = "${global.config.album_api}/video/sex";
+         var  h = "https://nazrul-apis.onrender.com/video/sex";
          else if ("13" == a.body)
-         var  h = "${global.config.album_api}/video/horny";
+         var  h = "https://nazrul-apis.onrender.com/video/horny";
          else if ("14" == a.body)
-         var  h = "${global.config.album_api}/video/item";
+         var  h = "https://nazrul-apis.onrender.com/video/item";
            else if ("15" == a.body)
          var  h =
 "${global.config.album_api}/video/hot";
