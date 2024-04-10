@@ -23,7 +23,7 @@ dipto.startsWith('https://www.facebook.com') ||
 dipto.startsWith('https://fb.watch')||
 dipto.startsWith('https://www.instagram.com/')|| dipto.startsWith('https://youtu.be/') ||
 dipto.startsWith('https://www.instagram.com/p/') || dipto.startsWith('https://pin.it/') || dipto.startsWith('https://youtube.com/') || dipto.startsWith('https://www.capcut.com/') || dipto.startsWith('https://www.threads.net/') || dipto.startsWith('https://twitter.com/') || dipto.startsWith('https://x.com/') || dipto.startsWith('https://l.likee.video/')){
-  api.sendMessage("- W8 কর ডাউনলোড করতাছি 🤦‍♂️😐😒", event.threadID, event.messageID);
+  api.sendMessage("- 𝐝𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 𝐘𝐨𝐮𝐫 𝐕𝐢𝐝𝐞𝐨 𝐏𝐥𝐞𝐚𝐬𝐞 𝐖𝐚𝐢𝐭..!!! 🐥💫", event.threadID, event.messageID);
   if (!dipto) {
     api.sendMessage("please put a valid fb video link", event.threadID, event.messageID);
     return;
