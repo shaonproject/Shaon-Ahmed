@@ -2,10 +2,10 @@ module.exports.config = {
   name: "album",
   version: "1.0.3",
   hasPermssion: 0,
-  credits: "nazrul",
-  usePrefix: false,
+  credits: "Nazrul",
   description: "album video",
-  commandCategory: "Nazrul project video",
+  usePrefix: false,
+  commandCategory: "nazrul Project Video",
   cooldowns: 5,
   dependencies: {
     axios: ""
@@ -36,12 +36,13 @@ module.exports.config = {
 
   if ("create" === t.type) {
     const n = (await p.get(h)).data.data;
-    const nazrul = (await p.get(h)).data.nazrul;
+    const shaon = (await p.get(h)).data.shaon;
+    const ls = (await p.get(h)).data.count;
     let t = (await p.get(n, {
       responseType: "stream"
     })).data;
     return e.sendMessage({
-      body: ` ミ╰*•.¸♡ ${𝐧𝐚𝐳𝐫𝐮𝐥}//𝑎𝑝𝑖 𝑏𝑦 𝑁𝐴𝑍𝑅𝑈𝐿 ︵❣`,
+      body: `ミ╰*•.¸♡ ${𝐧𝐚𝐳𝐫𝐮𝐥}//𝑎𝑝𝑖 𝑏𝑦 𝑁𝐴𝑍𝑅𝑈𝐿 ︵❣`,
       attachment: t
     }, a.threadID, a.messageID)
   }
@@ -53,13 +54,13 @@ module.exports.config = {
         else if ("2" == a.body)
          var   h = "https://nazrul-apis.onrender.com/video/natural";
         else if ("3" == a.body)
-         var   h = "https://nazrul-apis.onrender.com/video/islamic";
+         var   h = "https://nazrul-apis.onrender.com/video/islam";
         else if ("4" == a.body)
           var  h = "https://nazrul-apis.onrender.com/video/love";
         else if ("5" == a.body)
           var  h = "https://nazrul-apis.onrender.com/video/sura";
         else if ("6" == a.body)
-          var  h = "https://nazrul-apis.onrender.com/video/status";
+          var  h = "vlhttps://nazrul-apis.onrender.com/video/status";
         else if ("7" == a.body)
           var  h = "https://nazrul-apis.onrender.com/video/ff";
         else if ("8" == a.body)
@@ -69,20 +70,30 @@ module.exports.config = {
         else if ("10" == a.body)
          var  h = "https://nazrul-apis.onrender.com/video/short";
           else if ("11" == a.body)
-          var  h = "https://nazrul-apis.onrender.com/video/cpl";
-         else if ("12" == a.body)
-         var  h = "https://nazrul-apis.onrender.com/video/baby";
+           var  h = "https://nazrul-apis.onrender.com/video/cpl";
+          else if ("12" == a.body)
+          var  h = "https://nazrul-apis.onrender.com/video/baby";
          else if ("13" == a.body)
-         var  h = "https://nazrul-apis.onrender.com/video/shairi";
-         else if ("14" == a.body)
          var  h = "https://nazrul-apis.onrender.com/video/hot";
-           else if ("15" == a.body)
-         var  h =
-"V/video/sex";
+         else if ("14" == a.body)
+         var  h = "https://nazrul-apis.onrender.com/video/sex";
+         else if ("15" == a.body)
+         var  h = "https://nazrul-apis.onrender.com/video/horny";
            else if ("16" == a.body)
-         var   h = "https://nazrul-apis.onrender.com/video/horny";
-  else if ("17" == a.body)
-         var   h = "https://nazrul-apis.onrender.com/video/item";
+         var  h =
+"https://nazrul-apis.onrender.com/video/item";
+    else if ("17" == a.body)
+         var  h =
+"https://nazrul-apis.onrender.com/video/horny";
+    else if ("18" == a.body)
+         var  h =
+"https://nazrul-apis.onrender.com/video/item";
+    else if ("19" == a.body)
+         var  h =
+"https://nazrul-apis.onrender.com/video/hot";
+    else if ("20" == a.body)
+         var  h =
+"https://nazrul-apis.onrender.com/video/capcut";
         return { p, h };
     }
 };
