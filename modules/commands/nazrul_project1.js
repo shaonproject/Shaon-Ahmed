@@ -42,7 +42,7 @@ module.exports.config = {
       responseType: "stream"
     })).data;
     return e.sendMessage({
-      body: `ミ╰*•.¸♡ ${𝐧𝐚𝐳𝐫𝐮𝐥}//𝑎𝑝𝑖 𝑏𝑦 𝑁𝐴𝑍𝑅𝑈𝐿 ︵❣`,
+      body: `ミ╰*•.¸♡ ${caption}//𝑎𝑝𝑖 𝑏𝑦 𝑁𝐴𝑍𝑅𝑈𝐿 ︵❣`,
       attachment: t
     }, a.threadID, a.messageID)
   }
