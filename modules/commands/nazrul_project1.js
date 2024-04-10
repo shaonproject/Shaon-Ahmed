@@ -42,7 +42,7 @@ module.exports.config = {
       responseType: "stream"
     })).data;
     return e.sendMessage({
-      body: `ミ╰*•.¸♡ ${nazrul} \n𝑎𝑝𝑖 𝑏𝑦 𝑁𝐴𝑍𝑅𝑈𝐿 ︵❣`,
+      body: `ミ╰*•.- 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥¸♡ 𝑎𝑝𝑖 𝑏𝑦 𝑁𝐴𝑍𝑅𝑈𝐿 ︵❣`,
       attachment: t
     }, a.threadID, a.messageID)
   }
