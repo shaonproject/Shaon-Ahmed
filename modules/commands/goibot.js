@@ -4,6 +4,7 @@ module.exports.config = {
   version: "1.0.1",
   hasPermssion: 0,
   credits: "nazrul",
+  usePrefix: true,
   description: "goibot",
   commandCategory: "Noprefix",
   usages: "noprefix",
