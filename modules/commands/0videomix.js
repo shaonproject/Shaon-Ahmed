@@ -30,37 +30,37 @@ module.exports.run = async function({ api, event }) {
 
   const fs = require("fs");
 
-  var shaon = ["${global.config.album_api}/video/status",
+  var shaon = ["https://nazrul-apis.onrender.com/video/status",
 
-"${global.config.album_api}/video/sad",
+"https://nazrul-apis.onrender.com/video/sad",
 
-"${global.config.album_api}/video/baby",
+"https://nazrul-apis.onrender.com/video/baby",
 
-"${global.config.album_api}/video/love",
+https://nazrul-apis.onrender.com/video/love",
 
-"${global.config.album_api}/video/ff",
+"https://nazrul-apis.onrender.com/video/ff",
 
-"${global.config.album_api}/video/shairi",
+"https://nazrul-apis.onrender.com/video/shairi",
 
-"${global.config.album_api}/video/humaiyun",
+"https://nazrul-apis.onrender.com/video/humaiyun",
 
-"${global.config.album_api}/video/islam",
+"https://nazrul-apis.onrender.com/video/islam",
 
-"${global.config.album_api}/video/anime",
+"https://nazrul-apis.onrender.com/video/anime",
 
-"${global.config.album_api}/video/short",
+"https://nazrul-apis.onrender.com/video/short",
 
-"${global.config.album_api}/video/event",
+"https://nazrul-apis.onrender.com/video/event",
 
-"${global.config.album_api}/video/prefix",
+"https://nazrul-apis.onrender.com/video/attitude",
 
-"${global.config.album_api}/video/cpl",
+"https://nazrul-apis.onrender.com/video/cpl",
 
-"${global.config.album_api}/video/time",
+"https://nazrul-apis.onrender.com/video/time",
 
-"${global.config.album_api}/video/lofi",
+"https://nazrul-apis.onrender.com/video/lofi",
 
-"${global.config.album_api}/video/happy"
+"https://nazrul-apis.onrender.com/video/happy"
 
 ]
 
