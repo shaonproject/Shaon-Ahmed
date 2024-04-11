@@ -5,7 +5,7 @@ const axios = require('axios');
 const convertHMS = (value) => new Date(value * 1000).toISOString().slice(11, 19);
 
 const config = {
-     name: "audio",
+     name: "sing",
      version: "1.0.0",
      hasPermssion: 0,
      credits: "Yan Maglinte",
