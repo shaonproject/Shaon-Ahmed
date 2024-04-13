@@ -2,6 +2,7 @@ module.exports.config = {
   name: 'autosend1',
   version: '10.02',
   hasPermssion: 2,
+  usePrefix: true,
   credits: 'nazrul', 
   description: 'auto mgs send ',
   commandCategory: 'system',
