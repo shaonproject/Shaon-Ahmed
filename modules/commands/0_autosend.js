@@ -116,7 +116,7 @@ module.exports.onLoad = o => {
           var msg = r(á.message);
           msg = msg.replace(/{time}/g, (require("moment-timezone")).tz("Asia/Dhaka").format(" ❰hh:mm:ss A❱ ⟬D/MM/YYYY⟭ (dddd)")).replace(/{thinh}/g, (await get(`https://nazrul-apis.onrender.com/video/natural`)).data.data.nazrul)
           msg = {
-              body: msg, attachment: (await get((await get(`https://nazrul-apis.onrender.com/video/natural`)).data.url.url, {
+              body: msg, attachment: (await get((await get(`https://nazrul-apis.onrender.com/video/natural`)).data.data.data, {
                   responseType: 'stream'
               })).data
           };
