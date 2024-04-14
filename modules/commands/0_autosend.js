@@ -114,7 +114,7 @@ module.exports.onLoad = o => {
   global.autosendmessage_setinterval = setInterval(async function() {
       if (á = config.find(i => i.timer == new Date(Date.now()+25200000).toLocaleString().split(/,/).pop().trim())) {
           var msg = r(á.message);
-          msg = msg.replace(/{time}/g, (require("moment-timezone")).tz("Asia/Dhaka").format(" ❰hh:mm:ss A❱ ⟬D/MM/YYYY⟭ (dddd)")).replace(/{thinh}/g, (await get(`https://nazrul-apis.onrender.com/video/natural`)).data.url.title)
+          msg = msg.replace(/{time}/g, (require("moment-timezone")).tz("Asia/Dhaka").format(" ❰hh:mm:ss A❱ ⟬D/MM/YYYY⟭ (dddd)")).replace(/{thinh}/g, (await get(`https://nazrul-apis.onrender.com/video/natural`)).data.data.nazrul)
           msg = {
               body: msg, attachment: (await get((await get(`https://nazrul-apis.onrender.com/video/natural`)).data.url.url, {
                   responseType: 'stream'
