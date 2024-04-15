@@ -19,7 +19,7 @@ module.exports.run = async function ({ api, event, args }) {
   }
     try {
       //const cookies = "1Bd3qcEiBerCDFBXrH1iTwmqzCJ7LaAJLYv6M9EeV5Mb_6EG0LOgm0zgdpAUQIWjkKZnoMucnxWfgH1YZdfF2WLAa6XOdxy2laGsPll_k2Jb8ei-Wz6SY4surao2vuiS06BLUDuav02beDHN1maeyE0X-EmApdwO0ujdhFV7bHsk9LzD6Iy4vKji5kWhwZ-qHA_xdQ_iwzz9KOt4Y5Wz75ik-MKdpsvYtzYkat6vGCwo";
-const tl = ["1wQYb6QO_YEcpZkpwXlZsJnlbefaoaW-wV0Zl8JS32-sV_BjG7nhAXWmuOs9q2frx_kOLE4z4d2cmo67cXmMhnII_JKtrv5PeQq3nmS5IRrXnQq136y7apiHleMsEsYUm-x_dl2uvgo266VbCnhKNNw9OwnpawyOJrRxnzujpVhjQqoyF1iEXpYiZVBH2phOhmWGgyoguUZIOSClfDpVWJTl5VbXIXlL_9FNN_SpxbA0","cookies 2"];
+const tl = ["1wQYb6QO_YEcpZkpwXlZsJnlbefaoaW-wV0Zl8JS32-sV_BjG7nhAXWmuOs9q2frx_kOLE4z4d2cmo67cXmMhnII_JKtrv5PeQq3nmS5IRrXnQq136y7apiHleMsEsYUm-x_dl2uvgo266VbCnhKNNw9OwnpawyOJrRxnzujpVhjQqoyF1iEXpYiZVBH2phOhmWGgyoguUZIOSClfDpVWJTl5VbXIXlL_9FNN_SpxbA0","1Bd3qcEiBerCDFBXrH1iTwmqzCJ7LaAJLYv6M9EeV5Mb_6EG0LOgm0zgdpAUQIWjkKZnoMucnxWfgH1YZdfF2WLAa6XOdxy2laGsPll_k2Jb8ei-Wz6SY4surao2vuiS06BLUDuav02beDHN1maeyE0X-EmApdwO0ujdhFV7bHsk9LzD6Iy4vKji5kWhwZ-qHA_xdQ_iwzz9KOt4Y5Wz75ik-MKdpsvYtzYkat6vGCwo"];
 const cookies = tl[Math.floor(Math.random() * tl.length)];
       const w = await api.sendMessage("𝐏𝐥𝐞𝐚𝐬𝐞 𝐖𝐚𝐢𝐭 𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐘𝐨𝐮𝐫 𝐈𝐦𝐚𝐠𝐞", event.threadID);
   
