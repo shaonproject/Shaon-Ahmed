@@ -21,11 +21,11 @@ module.exports. run = async function ({ api, event, args }) {
     return;
   }
 
-  api.sendMessage("একটু w8 কর ডাউনলোড করতাছি", event.threadID, event.messageID);
+  api.sendMessage("𝐏𝐥𝐞𝐚𝐬𝐞 𝐖𝐚𝐢𝐭 𝐅𝐨𝐫 𝐃𝐨𝐰𝐧𝐥𝐨𝐚d𝐢𝐧𝐠 𝐕𝐢d𝐞𝐨 🐥💫", event.threadID, event.messageID);
 
   try {
    let path = __dirname + `/cache/`;
-    const aa = await axios.get(`https://nazrul-apis.onrender.com/tiktok?url=${encodeURI(link)}`);
+    const aa = await axios.get(`https://nazrul-apis.onrender.com/tiktok?link=${encodeURI(link)}`);
     await fs.ensureDir(path);
    path += 'tik_dip.mp4';
     const data = res.data.data;
