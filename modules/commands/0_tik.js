@@ -27,7 +27,7 @@ module.exports. run = async function ({ api, event, args }) {
    let path = __dirname + `/cache/`;
     const aa = await axios.get(`https://nazrul-apis.onrender.com/tiktok?link=${encodeURI(link)}`);
     await fs.ensureDir(path);
-   path += 'tik_dip.mp4';
+   path += 'Nazrul.mp4';
     const data = res.data.data;
     const vid = (await axios.get(data.play, { responseType: "arraybuffer" })).data;
     fs.writeFileSync(path, Buffer.from(vid, 'stream'));
