@@ -32,10 +32,9 @@ const imgur = ["https://i.imgur.com/98nTMJb.mp4",
 const ex = path.extname(link);
   const filename = __dirname + `/cache/shaon0${ex}`;
   fs.writeFileSync(filename, Buffer.from(res.data, 'binary'));
-  if (shaon2.indexOf("🖤") == 0 || shaon2.indexOf("🖤") == 0 || shaon2.indexOf("🖤") == 0)
+  if (shaon2.indexOf("কাবা শরিফ") == 0 || shaon2.indexOf("মক্কা") == 0 || shaon2.indexOf("mokka") == 0)
   {
-api.sendMessage({body:`•—»✨[ 𝐏𝐫𝐞𝐟𝐢𝐱 𝐄𝐯𝐞𝐧𝐭 ]✨«—•\n•┄┅════❁🌺❁════┅┄•\n\nআল্লাহামদুলিল্লাহ আমাদের পবিত্র কাবা শরিফ 
-🖤🕋🖤\n\n•┄┅════❁🌺❁════┅┄•\n•—»✨[ 𝐍𝐀𝐙𝐑𝐔𝐋 𝐗 𝐏𝐑𝐎𝐉𝐄𝐂𝐓 ]✨«—•\n[🐰]  𝗣𝗿𝗲𝗳𝗶𝘅 : [ ${global.config.PREFIX} ]\n[🫰] 𝐍𝐎𝐏𝐑𝐄𝐅𝐈𝐗  : 🖤\n[⌛]  𝐃𝐚𝐭𝐞  : ${Time} 𝐓𝐢𝐦𝐞\n[🍒]  ${global.config.BOTNAME}`,attachment: fs.createReadStream(filename)},event.threadID,() => fs.unlinkSync(filename),event.messageID)
+api.sendMessage({body:`⊹⊱︵✰⚡[ 𝑷𝒓𝒆𝒇𝒊𝒙 𝑬𝒗𝒆𝒏𝒕 ]⚡✰︵⊰⊹                                     ⊰᯽⊱┈──╌❊💫❊╌──┈⊰᯽⊱\n                                                              \n                               \n _>“___ আল্লাহামদুলিল্লাহ আমাদের পবিত্র কাবা শরিফ..!♡\n\n 💁😘🪽\n\⊰᯽⊱┈──╌❊[ 💕 ]❊╌──┈⊰᯽⊱\n︵❣💫[  𝐂𝐫𝐞𝐚𝐭𝐨𝐫 : 𝐍𝐚𝐳𝐫𝐮𝐥   ]💫❣︵\n[ 𝐍𝐨𝐰 ]  :  ${Date.now() - timeStart} 𝐓𝐢𝐦𝐞\n\n[ 𝐁𝐨𝐭 𝐍𝐚𝐦𝐞 ]  ${global.config.BOTNAME}`,attachment: fs.createReadStream(filename)},event.threadID,() => fs.unlinkSync(filename),event.messageID)
   }
   }
 }
@@ -57,4 +56,4 @@ try {
     console.log(e);
   }
 
-}
+               }
