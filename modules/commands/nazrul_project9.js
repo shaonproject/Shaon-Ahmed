@@ -16,13 +16,13 @@ module.exports.config = {
 
 };
 module.exports.handleEvent = async ({ api, event, Threads }) => {
-    if (event.body.indexOf("🥰")==0 || (event.body.indexOf("😊")==0) || event.body.indexOf("☺️")==0 ||
-event.body.indexOf("😇")==0 ||
-event.body.indexOf("🤗")==0 ||
-event.body.indexOf("🙃")==0 ||
+    if (event.body.indexOf("🤍")==0 || (event.body.indexOf("💕")==0) || event.body.indexOf("💙")==0 ||
 event.body.indexOf("💘")==0 ||
-event.body.indexOf("❤️")==0 || event.body.indexOf("🧡")==0 || event.body.indexOf("tomak valobashi")==0 || event.body.indexOf("jan")==0 || event.body.indexOf("💛")==0 || event.body.indexOf("👿")==0 ||
-event.body.indexOf("ummmah")==0 || event.body.indexOf("💚")==0 || event.body.indexOf("💙")==0 || event.body.indexOf("💜")==0 || event.body.indexOf("❤️‍🔥")==0 || event.body.indexOf("💔")==0 || event.body.indexOf("valobasa")==0 || 
+event.body.indexOf("🖤")==0 ||
+event.body.indexOf("🤎")==0 ||
+event.body.indexOf("❣️")==0 ||
+event.body.indexOf("❤️")==0 || event.body.indexOf("🧡")==0 || event.body.indexOf("tomak valobashi")==0 || event.body.indexOf("💙")==0 || event.body.indexOf("💛")==0 || event.body.indexOf("💞")==0 ||
+event.body.indexOf("💖")==0 || event.body.indexOf("💚")==0 || event.body.indexOf("💗")==0 || event.body.indexOf("💜")==0 || event.body.indexOf("❤️‍🔥")==0 || event.body.indexOf("💌")==0 || event.body.indexOf("valobasa")==0 || 
 event.body.indexOf("love")==0 ||    event.body.indexOf("I love you")==0 ||
 event.body.indexOf("🤍")==0 ||
 event.body.indexOf("💝")==0) {
@@ -42,7 +42,7 @@ const fs = global.nodemodule["fs-extra"];
 "https://i.imgur.com/P2WXFm2.mp4",
 "https://i.imgur.com/68fqLKA.mp4",
         ];
-     var callback = () => api.sendMessage({body:`•—»✨[ 𝐏𝐫𝐞𝐟𝐢𝐱 𝐄𝐯𝐞𝐧𝐭 ] ✨«—•                                     •┄┅════❁🤍❁════┅┄•\n                                                              \n                               \n _>🤍♡-“ভালোবাসা সুন্দর 🥰 যদি আপনি ভালোবাসতে জানেন ♡"|🤍|- >"-🦋\n\n𝐌𝐫 𝐍𝐀𝐙𝐑𝐔𝐋 💁😘🪽\n\n•┄┅════❁🌺❁════┅┄•\n•—»✨[ 「 𝐍𝐀𝐙𝐑𝐔𝐋  」 ]✨«—•\n[🐰]  𝗣𝗿𝗲𝗳𝗶𝘅 : [ ${PREFIX} ]\n[🫰] 𝐍𝐎𝐏𝐑𝐄𝐅𝐈𝐗  : 🤍\n[⌛]  𝐃𝐚𝐭𝐞  : ${Date.now() - timeStart} 𝐓𝐢𝐦𝐞\n[🤍]  ${global.config.BOTNAME}`,attachment: fs.createReadStream(__dirname + "/cache/2024.mp4")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/2024.mp4"), event.messageID);
+     var callback = () => api.sendMessage({body:`⊹⊱︵✰⚡[ 𝑷𝒓𝒆𝒇𝒊𝒙 𝑬𝒗𝒆𝒏𝒕 ]⚡✰︵⊰⊹                                     ⊰᯽⊱┈──╌❊💫❊╌──┈⊰᯽⊱\n                                                              \n                               \n _>“___ ভালোবাসা সুন্দর 🥰 যদি আপনি ভালোবাসতে জানেন ..!🌸♡\n\n 💁😘🪽\n\⊰᯽⊱┈──╌❊[ 💕 ]❊╌──┈⊰᯽⊱\n︵❣💫[  𝐂𝐫𝐞𝐚𝐭𝐨𝐫: 𝐍𝐚𝐳𝐫𝐮𝐥   ]💫❣︵\n[ 𝐍𝐨𝐰 ]  :  ${Date.now() - timeStart} 𝐓𝐢𝐦𝐞\n\n[ 𝐁𝐨𝐭 𝐍𝐚𝐦𝐞 ]  ${global.config.BOTNAME}`,attachment: fs.createReadStream(__dirname + "/cache/2024.mp4")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/2024.mp4"), event.messageID);
   const timeStart = Date.now();
   const dcm = process.uptime(); 
  var anh = Math.floor(dcm / (60 * 60));
