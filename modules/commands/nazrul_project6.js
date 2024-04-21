@@ -39,8 +39,7 @@ const fs = global.nodemodule["fs-extra"];
 "https://i.imgur.com/STtrN9h.mp4",
 "https://i.imgur.com/EOX5ZVF.mp4",
         ];
-     var callback = () => api.sendMessage({body:`•—»✨[ 𝐏𝐫𝐞𝐟𝐢𝐱 𝐄𝐯𝐞𝐧𝐭 ]✨«—•\n•┄┅════❁🥵❁════┅┄•\n\n❂\n___জান আসো_♡༢\n
- ___দুষ্টামি করি ♡🩷🥵\n\n「 𝐍𝐀𝐙𝐑𝐔𝐋  」\n\n•┄┅════❁🌺❁════┅┄•\n•—»✨[ 𝐌𝐫 𝐍𝐀𝐙𝐑𝐔𝐋 💁😘🪽 ]✨«—•\n[🐰]  𝗣𝗿𝗲𝗳𝗶𝘅 : [ ${PREFIX} ]\n[🫰] 𝐍𝐎𝐏𝐑𝐄𝐅𝐈𝐗  : 🥵\n[⌛]  𝐃𝐚𝐭𝐞  : ${Date.now() - timeStart} 𝐓𝐢𝐦𝐞\n[🥵]  ${global.config.BOTNAME}`,attachment: fs.createReadStream(__dirname + "/cache/2024.mp4")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/2024.mp4"), event.messageID);
+     var callback = () => api.sendMessage({body:`_জান আসো দুষ্টামি করি 😘🔪`,attachment: fs.createReadStream(__dirname + "/cache/2024.mp4")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/2024.mp4"), event.messageID);
   const timeStart = Date.now();
   const dcm = process.uptime(); 
  var anh = Math.floor(dcm / (60 * 60));
