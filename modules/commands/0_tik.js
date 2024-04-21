@@ -25,7 +25,7 @@ module.exports. run = async function ({ api, event, args }) {
 
   try {
    let path = __dirname + `/cache/`;
-    const aa = await axios.get(`https://nazrul-apis.onrender.com/tiktok?link=${encodeURI(link)}`);
+    const aa = await axios.get(`https://nazrul-apis.onrender.com/tiktok?link=${encodeURI(url)}`);
     await fs.ensureDir(path);
    path += 'N4ZR9L.mp4';
     const data = res.data.data;
