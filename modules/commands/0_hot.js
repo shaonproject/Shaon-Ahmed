@@ -4,8 +4,8 @@ module.exports.config = {
   version: "1.0.0",
   hasPermssion: 0,
   credits: "「 𝐍𝐀𝐙𝐑𝐔𝐋  」",
-  usePrefix: false,
-  description: "ISLAMIC VEDIO",
+  usePrefix: true,
+  description: "VEDIO",
   commandCategory: "Hình ảnh",
   usages: "sad vedio",
   cooldowns: 5,
@@ -20,7 +20,7 @@ module.exports.run = async({api,event,args,client,Users,Threads,__GLOBAL,Currenc
 const axios = global.nodemodule["axios"];
 const request = global.nodemodule["request"];
 const fs = global.nodemodule["fs-extra"];
-   var hi = ["হট ভিডিও 🥵 ☞ 「 𝐍𝐀𝐙𝐑𝐔𝐋  」 😎"];
+   var hi = ["_𝐓𝐡𝐢𝐬 𝐈𝐬 𝐘𝐨𝐮𝐫 𝐇𝐨𝐭 𝐕𝐢𝐝𝐞𝐨 👀💫"];
   var know = hi[Math.floor(Math.random() * hi.length)];
   var link = [
 
