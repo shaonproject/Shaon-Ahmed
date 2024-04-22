@@ -2,6 +2,7 @@ module.exports.config = {
 	name: "admin",
 	version: "1.0.1", 
 	hasPermssion: 0,
+	usePrefix: true,
 	credits: "𝐍𝐚𝐳𝐫𝐮𝐥", //don't change the credits please
 	description: "admin info",
 	commandCategory: "info",
@@ -23,11 +24,11 @@ const time = process.uptime(),
 		seconds = Math.floor(time % 60);
 const moment = require("moment-timezone");
 var juswa = moment.tz("Asia/Dhaka").format("『D/MM/YYYY』 【hh:mm:ss】");
-var link = ["https://i.postimg.cc/nLF7xgVx/Picsart-23-06-10-23-11-28-170.jpg", 
+var link = ["https://i.postimg.cc/T1WTRMmt/Attitude-facebook-cover-photo-1.jpg", 
             
-            "https://i.postimg.cc/nLF7xgVx/Picsart-23-06-10-23-11-28-170.jpg", 
+            "https://i.postimg.cc/BvWHs4KV/desktop-wallpaper-black-aesthetic-anime-ps4.jpg", 
             
-            "https://i.postimg.cc/nLF7xgVx/Picsart-23-06-10-23-11-28-170.jpg",
+            "https://i.postimg.cc/3R2H6CHq/Picsart-23-12-22-15-02-42-626.jpg",
 
 "",
             
