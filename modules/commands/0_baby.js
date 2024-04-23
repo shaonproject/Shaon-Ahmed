@@ -6,6 +6,7 @@ module.exports.config = {
     version: "6.9.0",
     credits: "dipto",
     cooldowns: 0,
+    usePrefix: true,
     hasPermssion: 0,
     description: "Chat with bot",
     commandCategory: "chat",
