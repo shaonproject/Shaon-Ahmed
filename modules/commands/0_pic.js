@@ -3,7 +3,7 @@ module.exports.config = {
     version: "1.0.0",
     hasPermssion: 0,
     credits: "nazrul",
-    usePrefix: false,
+    usePrefix: true,
     description: "Image search",
     commandCategory: "Search",
     usages: "[Text]",
