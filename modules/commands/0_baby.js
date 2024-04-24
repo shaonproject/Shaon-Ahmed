@@ -2,11 +2,10 @@ const axios = require('axios');
 
 module.exports.config = {
     name: "baby",
-    aliases: ["baby", "bbe", "babe" ],
     version: "6.9.0",
     credits: "dipto",
     cooldowns: 0,
-    usePrefix: true,
+    usePrefix: false,
     hasPermssion: 0,
     description: "Chat with bot",
     commandCategory: "chat",
