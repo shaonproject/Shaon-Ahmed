@@ -14,22 +14,22 @@ module.exports.run = async function({ api, event }) {
   const axios = require('axios');
   const request = require('request');
   const fs = require("fs");
-  var nazrul = ["https://nazrul-api.onrender.com/video/hot",
-"https://nazrul-api.onrender.com/video/sad",
-"https://nazrul-api.onrender.com/video/baby",
-"https://nazrul-api.onrender.com/video/love",
-"https://nazrul-api.onrender.com/video/ff",
-"https://nazrul-api.onrender.com/video/shairi",
-"https://nazrul-api.onrender.com/video/attitude",
-"https://nazrul-api.onrender.com/video/islam",
-"https://nazrul-api.onrender.com/video/anime",
-"https://nazrul-api.onrender.com/video/short",
-"https://nazrul-api.onrender.com/video/freefire",
-"https://nazrul-api.onrender.com/video/attitude",
-"https://nazrul-api.onrender.com/video/cpl",
-"https://nazrul-api.onrender.com/video/status2",
-"https://nazrul-api.onrender.com/video/status",
-"https://nazrul-api.onrender.com/video/natural"
+  var nazrul = ["https://nazrul-apis.onrender.com/video/hot",
+"https://nazrul-apis.onrender.com/video/sad",
+"https://nazrul-apis.onrender.com/video/baby",
+"https://nazrul-apis.onrender.com/video/love",
+"https://nazrul-apis.onrender.com/video/ff",
+"https://nazrul-apis.onrender.com/video/shairi",
+"https://nazrul-apis.onrender.com/video/attitude",
+"https://nazrul-apis.onrender.com/video/islam",
+"https://nazrul-apis.onrender.com/video/anime",
+"https://nazrul-apis.onrender.com/video/short",
+"https://nazrul-apis.onrender.com/video/freefire",
+"https://nazrul-apis.onrender.com/video/attitude",
+"https://nazrul-apis.onrender.com/video/cpl",
+"https://nazrul-apis.onrender.com/video/status2",
+"https://nazrul-apis.onrender.com/video/status",
+"https://nazrul-apis.onrender.com/video/natural"
 ]
   var nazrul1 = nazrul[Math.floor(Math.random() * nazrul.length)]
   axios.get(nazrul1).then(res => {
