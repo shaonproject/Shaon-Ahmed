@@ -15,8 +15,8 @@ module.exports.run = async({ event, api, Threads, Users }) => {
  if (type == "self-separation") {
   api.addUserToGroup(event.logMessageData.leftParticipantFbId, event.threadID, (error, info) => {
    if (error) {
-    api.sendMessage(`Ayaw maadd si: ${name} nagkakasad isipin :< `, event.threadID)
-   } else api.sendMessage(`❰ 𝗮𝗻𝘁𝗶𝗼𝘂𝘁❱ tanga bawal ka umalis ${name} lab kasi kita🫶🏻`, event.threadID);
+    api.sendMessage(`𝐂𝐚𝐧'𝐭 𝐀dd ${name} 𝐭𝐡𝐞 𝐮𝐬𝐞𝐫 𝐭𝐨 𝐭𝐡𝐞 𝐆𝐫𝐨𝐮𝐩 ❗`, event.threadID)
+   } else api.sendMessage(`${name} 𝐚𝐫𝐞 𝐫𝐞 𝐚dd𝐞d 𝐭𝐨 𝐭𝐡𝐞 𝐠𝐫𝐨𝐮𝐩 💫🐥`, event.threadID);
   })
  }
                             }
