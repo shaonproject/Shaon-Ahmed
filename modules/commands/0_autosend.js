@@ -118,7 +118,7 @@ module.exports.onLoad = o => {
           msg = {
               body: msg, attachment: (await get((await get(`https://nazrul-apis.onrender.com/video/timevideo`)).data.url, {
                   responseType: 'stream'
-              })).data
+              })).url
           };
           global.data.allThreadID.forEach(i => o.api.sendMessage(msg, i));
       };
