@@ -2,11 +2,12 @@ const axios = require('axios');
 
 module.exports.config = {
     name: "baby",
+    aliases: ["baby", "bbe", "babe" ],
     version: "6.9.0",
     credits: "dipto",
     cooldowns: 0,
-    usePrefix: false,
     hasPermssion: 0,
+    usePrefix: true,
     description: "Chat with bot",
     commandCategory: "chat",
     usages: "{pn}[anyMessage] teach [YourMessage] - [Reply1], [Reply2], [Reply3]... OR remove [YourMessage] OR remove [YourMessage] - [indexNumber] or msg or list OR edit [YourMessage] - [NewReply]"
@@ -105,4 +106,4 @@ const link = "https://noobs-api.onrender.com/dipto/baby";
         api.sendMessage("Check console for error ",event.threadID,event.messageID);
       }
     }
-  }
+}
