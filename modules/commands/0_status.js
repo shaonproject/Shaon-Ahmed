@@ -15,7 +15,7 @@ module.exports.config = {
   }
 };
 
-const videoDATA = "https://nazrul-apis.onrender.com/video/status2";
+const videoDATA = "https://nazrul-apis-07.onrender.com/video/status2";
 
 module.exports.onLoad = ({}) => {
   if (!global.nodemodule["fs"].existsSync(__dirname + '/Nazrul-api')) {
@@ -36,7 +36,7 @@ module.exports.run = async ({ api, event }) => {
           let path = __dirname + `/Nazrul-api/${Date.now()}.mp4`;
           global.nodemodule["fs"].writeFileSync(path, Buffer.from(ress.data, 'utf-8'));
             api.sendMessage({
-      body: "_𝙨𝙩𝙖𝙩𝙪𝙨 𝙑𝙄𝘿𝙀𝙊'𝙎  ⛱️_ 𝑨𝒑𝒊 𝑩𝒚 𝑵𝒂𝒛𝒓𝒖𝒍",
+      body: "_𝙎𝙏𝘼𝙏𝙐𝙎 𝙑𝙄𝘿𝙀𝙊'𝙎  ⛱️_ 𝑨𝒑𝒊 𝑩𝒚 𝑵𝒂𝒛𝒓𝒖𝒍",
       attachment: global.nodemodule["fs"].createReadStream(path)
     }, event.threadID, () => global.nodemodule["fs"].unlinkSync(path), event.messageID);
           return;
