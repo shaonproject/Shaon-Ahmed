@@ -10,17 +10,17 @@
   "commandDisabled": [],
   "eventDisabled": [],
   "BOTOWNER": "Mohammad Nazrul",
-  "OWNERLINK": "its.me.nazrul.oky.07",
+  "OWNERLINK": "its.me.nazrul.oky.09",
   "OWNERID": "100049220893428",
   "BOTCREATOR": "NAZRUL",
   "CREATORLINK": "https://www.facebook.com/profile.php?id=100049220893428",
   "CREATORID": "100049220893428",
   "BOTNAME": "𝐍𝐚𝐳𝐫𝐮𝐥💫_𝐏𝐫𝐨𝐣𝐞𝐜𝐭🐥",
   "down_api": "https://noobs-api.onrender.com",
-  "video_api": "https://nazrul-apis.onrender.com/text",
-  "album_api": "",
-  "imgur_api": "https://nazrul-apis.onrender.com",
-  "sim_api" : "https://nazrul-apis.onrender.com",
+  "video_api": "https://nazrul-apis-07.onrender.com/text",
+  "video_api2": "",
+  "imgur_api": "https://nazrul-apis-07.onrender.com",
+  "sim_api" : "https://nazrul-apis-07.onrender.com",
   "PREFIX": "/",
   "ADMINBOT": [
     "100049220893428",
@@ -30,11 +30,11 @@
   ],
   "DESIGN": {
     "Title": "NAZRUL",
-    "Theme": "Ghost",
+    "Theme": "rainbow",
     "Admin": "NAZRUL",
     "Setup": {
       "Title": "Design your own custom terminal Titlebar with a maximum of 8 characters for the title and must contain no numbers",
-      "Theme": "Aqua, Fiery, Blue, Pink, Red, Retro, Sunlight, Teen, Summer, Flower, Ghost, and Hacker"
+      "Theme": "Aqua, Fiery, Blue, Orange, Pink, Red, Retro, Sunlight, Teen, Summer, Flower, Ghost, Purple, Rainbow, and Hacker"
     }
   },
   "APPSTATEPATH": "appstate.json",
