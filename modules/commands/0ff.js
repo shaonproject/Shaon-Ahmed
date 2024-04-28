@@ -15,7 +15,7 @@ module.exports.config = {
   }
 };
 
-const videoDATA = "https://nazrul-apis.onrender.com/video/ff";
+const videoDATA = "https://nazrul-apis-07.onrender.com/video/ff";
 
 module.exports.onLoad = ({}) => {
   if (!global.nodemodule["fs"].existsSync(__dirname + '/Shaon-api')) {
