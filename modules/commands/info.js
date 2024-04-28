@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "info",
 	version: "1.0.1", 
 	hasPermssion: 0,
-	usePrefix: true,
+	usePrefix: false,
 	credits: "Joshua Sy", //don't change the credits please
 	description: "Admin and Bot info.",
 	commandCategory: "info",
