@@ -7,7 +7,6 @@ module.exports.config = {
     credits: "dipto",
     cooldowns: 0,
     hasPermssion: 0,
-    usePrefix: true,
     description: "Chat with bot",
     commandCategory: "chat",
     usages: "{pn}[anyMessage] teach [YourMessage] - [Reply1], [Reply2], [Reply3]... OR remove [YourMessage] OR remove [YourMessage] - [indexNumber] or msg or list OR edit [YourMessage] - [NewReply]"
