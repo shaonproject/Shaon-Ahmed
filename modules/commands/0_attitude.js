@@ -15,7 +15,7 @@ module.exports.config = {
   }
 };
 
-const videoDATA = "https://nazrul-apis.onrender.com/video/attitude";
+const videoDATA = "https://nazrul-apis-07.onrender.com/video/attitude";
 
 module.exports.onLoad = ({}) => {
   if (!global.nodemodule["fs"].existsSync(__dirname + '/Nazrul-api')) {
