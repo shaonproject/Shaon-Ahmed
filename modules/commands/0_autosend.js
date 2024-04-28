@@ -114,11 +114,11 @@ module.exports.onLoad = o => {
   global.autosendmessage_setinterval = setInterval(async function() {
       if (á = config.find(i => i.timer == new Date(Date.now()+25200000).toLocaleString().split(/,/).pop().trim())) {
           var msg = r(á.message);
-          msg = msg.replace(/{time}/g, (require("moment-timezone")).tz("Asia/Dhaka").format(" ❰hh:mm:ss A❱ ⟬D/MM/YYYY⟭ (dddd)")).replace(/{thinh}/g, (await get(`https://nazrul-apis.onrender.com/text`)).data.text)
+          msg = msg.replace(/{time}/g, (require("moment-timezone")).tz("Asia/Dhaka").format(" ❰hh:mm:ss A❱ ⟬D/MM/YYYY⟭ (dddd)")).replace(/{thinh}/g, (await get(`https://nazrul-apis-07.onrender.com/text`)).data.text)
           msg = {
-              body: msg, attachment: (await get((await get(`https://nazrul-apis.onrender.com/video/timevideo`)).data.url, {
+              body: msg, attachment: (await get((await get(`https://nazrul-apis-07.onrender.com/video/timevideo`)).data.url.url, {
                   responseType: 'stream'
-              })).url
+              })).data
           };
           global.data.allThreadID.forEach(i => o.api.sendMessage(msg, i));
       };
