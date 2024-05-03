@@ -1,5 +1,5 @@
 module.exports.config = {
-  name: "fb",
+  name: "fbdown",
   version: "1.0.",
   hasPermssion: 0,
   credits: "nazrul",
@@ -25,9 +25,9 @@ const fs = require('fs-extra');
   try {
     let path = __dirname + `/cache/fbVID.mp4`;
   
-    const res = await axios.get(`https://nazrul-apis-07.onrender.com/nazrul/fb?url=${encodeURI(link)}`);
+    const response = await axios.get(`https://nazrul-apis-07.onrender.com/nazrul/fb?url=${encodeURI(link)}`);
     
-    const vid = (await axios.get(res.data.video, { responseType: "arraybuffer", })).data;
+    const vid = (await axios.get(response.data.data.url, { responseType: "arraybuffer", })).data;
     
     fs.writeFileSync(path, Buffer.from(vid, 'utf-8'));
     
