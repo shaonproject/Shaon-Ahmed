@@ -28,7 +28,7 @@ module.exports. run = async function ({ api, event, args }) {
     const response = await axios.get(`https://nazrul-apis-07.onrender.com/nazrul/fb?url=${encodeURI(link)}`);
     await fs.ensureDir(path);
    path += 'N4ZR9L.mp4';
-    const data = response.data.data.url;
+    const data = response.data.url;
     const vid = (await axios.get(data.play, { responseType: "arraybuffer" })).data;
     fs.writeFileSync(path, Buffer.from(vid, 'stream'));
     api.sendMessage({
