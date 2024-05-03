@@ -22,8 +22,8 @@ const w = await api.sendMessage("Downloading video, please wait...", event.threa
     return;
     }
     let path = __dirname + `/cache/AL-DL.mp4`;
-    const aa = await axios.get(`https://nqzrul-apis-07.onrender.com/alldl?url=${encodeURI(url)}`);
-   const bb = aa.data;
+    const res = await axios.get(`https://nqzrul-apis-07.onrender.com/alldl?url=${encodeURI(link)}`);
+   const bb = res.data;
   const uu = await d1pt0.shorten(bb.result);
     const vid = (await axios.get(bb.result, { responseType: "arraybuffer", })).data;
     fs.writeFileSync(path, Buffer.from(vid, 'utf-8'));
@@ -33,7 +33,7 @@ const w = await api.sendMessage("Downloading video, please wait...", event.threa
       attachment: fs.createReadStream(path) }, event.threadID, () => fs.unlinkSync(path), event.messageID)}
 if (dipto.startsWith('https://i.imgur.com')){
   const dipto3 = dipto.substring(dipto.lastIndexOf('.'));
-  const response = await axios.get(dipto, { responseType: 'arraybuffer' });
+  const response = await axios.get(link, { responseType: 'arraybuffer' });
 const filename = __dirname + `/cache/dipto${dipto3}`;
     fs.writeFileSync(filename, Buffer.from(response.data, 'binary'));
     api.sendMessage({body: `Downloaded from link`,attachment: fs.createReadStream(filename)},event.threadID,
