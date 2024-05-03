@@ -1,5 +1,5 @@
 module.exports.config = {
-  name: "awto",
+  name: "autodl9",
   version: "1.0.0",
   hasPermission: 2,
   credits: "Nazrul",
@@ -41,7 +41,7 @@ module.exports.config = {
     console.log(fbApiResponse)
     const fbVideoUrl = fbApiResponse.data[0].url;
     api.setMessageReaction("✅", event.messageID, (err) => {}, true);
-    const waitingMessage = await sendWaitingMessage({ body: "Downloading Facebook video. Please wait..." });
+    const waitingMessage = await sendWaitingMessage({ body: "𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙞𝙣𝙜 𝙋𝙡𝙚𝙖𝙨𝙚 𝙒𝙖𝙞𝙩 😷💔" });
     
 
     const fbVideoData = (await axios.get(fbVideoUrl, {
@@ -49,7 +49,7 @@ module.exports.config = {
     })).data;
     fs.writeFileSync(__dirname + "/cache/fbVideo.mp4", Buffer.from(fbVideoData, "utf-8"));
 
-    msg = "Facebook video download success";
+    msg = "𝙎𝙪𝙘𝙘𝙚𝙨𝙨𝙁𝙪𝙡𝙡𝙮 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙚𝙙 👀💫";
 
     api.sendMessage(
       {
@@ -78,7 +78,7 @@ module.exports.config = {
       )
     ).data;
     api.setMessageReaction("✅", event.messageID, (err) => {}, true);
-    const waitingMessage = await sendWaitingMessage({ body: "Downloading TikTok video. Please wait....!🥱🌸"});
+    const waitingMessage = await sendWaitingMessage({ body: "𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙞𝙣𝙜 𝙋𝙡𝙚𝙖𝙨𝙚 𝙒𝙖𝙞𝙩 😷💔"});
     
 
     const tiktokVideoData = (await axios.get(tiktokVideoUrl, {
@@ -86,7 +86,7 @@ module.exports.config = {
     })).data;
     fs.writeFileSync(__dirname + "/cache/tiktokVideo.mp4", Buffer.from(tiktokVideoData, "utf-8"));
 
-    msg = `《TITLE》${tiktokTitle}`;
+    msg = `𝙎𝙪𝙘𝙘𝙚𝙨𝙨𝙁𝙪𝙡𝙡𝙮 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙚𝙙 👀💫`;
 
     api.sendMessage(
       {
@@ -103,14 +103,14 @@ module.exports.config = {
     const instagramApiResponse = await ndown(event.body);
     const instagramVideoUrl = instagramApiResponse.data[0].url;
     api.setMessageReaction("✅", event.messageID, (err) => {}, true);
-    const waitingMessage = await sendWaitingMessage({ body: "Downloading Instagram video. Please wait..." });
+    const waitingMessage = await sendWaitingMessage({ body: "𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙞𝙣𝙜 𝙋𝙡𝙚𝙖𝙨𝙚 𝙒𝙖𝙞𝙩 😷💔" });
 
     const instagramVideoData = (await axios.get(instagramVideoUrl, {
       responseType: "arraybuffer",
     })).data;
     fs.writeFileSync(__dirname + "/cache/instagramVideo.mp4", Buffer.from(instagramVideoData, "utf-8"));
 
-    msg = "Instagram video download success";
+    msg = "𝙎𝙪𝙘𝙘𝙚𝙨𝙨𝙁𝙪𝙡𝙡𝙮 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙚𝙙 🐥⛱️";
 
     api.sendMessage(
       {
@@ -129,13 +129,13 @@ module.exports.config = {
     const youtubeVideoUrl = youtubeApiResponse.data.video;
     const title = youtubeApiResponse.data.title;
     api.setMessageReaction("✅", event.messageID, (err) => {}, true);
-    const waitingMessage = await sendWaitingMessage({ body: "Downloading YouTube video. Please wait..." });
+    const waitingMessage = await sendWaitingMessage({ body: "𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙞𝙣𝙜 𝙋𝙡𝙚𝙖𝙨𝙚 𝙒𝙖𝙞𝙩 😷💔" });
     const youtubeVideoData = (await axios.get(youtubeVideoUrl, {
       responseType: "arraybuffer",
     })).data;
     fs.writeFileSync(__dirname + "/cache/youtubeVideo.mp4", Buffer.from(youtubeVideoData, "utf-8"));
 
-    msg = `YouTube video download success\n${title}`;
+    msg = `𝙎𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙 𝙔𝙤𝙪𝙩𝙪𝙗𝙚 𝙑𝙞𝙙𝙚𝙤 ⛱️`;
 
     api.sendMessage(
       {
