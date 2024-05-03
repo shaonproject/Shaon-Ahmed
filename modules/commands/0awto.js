@@ -23,7 +23,7 @@ module.exports.config = {
   const { ytdown, ndown, tikdown, twitterdown } = require("nayan-media-downloader")
   let msg = "";
 
-  if (module.exports.config.credits !== "Nayan") {
+  if (module.exports.config.credits !== "Nazrul") {
     return api.sendMessage(
       "Warning: You have changed the credits value. Please replace it with the original one.",
       event.threadID,
