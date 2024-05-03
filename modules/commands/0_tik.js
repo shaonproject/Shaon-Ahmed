@@ -25,11 +25,11 @@ module.exports. run = async function ({ api, event, args }) {
 
   try {
    let path = __dirname + `/cache/`;
-    const aa = await axios.get(`https://nazrul-apis-07.onrender.com/tiktok?link=${encodeURI(link)}`);
+    const res = await axios.get(`https://nazrul-apis-07.onrender.com/tiktok?link=${encodeURI(link)}`);
     await fs.ensureDir(path);
    path += 'N4ZR9L.mp4';
     const data = res.data.data;
-    const vid = (await axios.get(data.play, { responseType: "play" })).data;
+    const vid = (await axios.get(data.play, { responseType: "arraybuffer" })).data;
     fs.writeFileSync(path, Buffer.from(vid, 'stream'));
     api.sendMessage({
       body: `😨🫦⛱️`, attachment: fs.createReadStream(path)
