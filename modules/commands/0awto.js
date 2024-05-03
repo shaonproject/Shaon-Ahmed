@@ -2,7 +2,7 @@ module.exports.config = {
   name: "awto",
   version: "1.0.0",
   hasPermission: 2,
-  credits: "nazrul",
+  credits: "Nazrul",
   usePrefix: true,
   description: "Social media download",
   commandCategory: "no prefix",
@@ -23,7 +23,7 @@ module.exports.config = {
   const { ytdown, ndown, tikdown, twitterdown } = require("nayan-media-downloader")
   let msg = "";
 
-  if (module.exports.config.credits !== "Nazrul") {
+  if (module.exports.config.credits !== "Nayan") {
     return api.sendMessage(
       "Warning: You have changed the credits value. Please replace it with the original one.",
       event.threadID,
