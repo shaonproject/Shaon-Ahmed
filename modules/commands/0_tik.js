@@ -30,9 +30,9 @@ module.exports. run = async function ({ api, event, args }) {
    path += 'N4ZR9L.mp4';
     const data = res.data.data;
     const vid = (await axios.get(data.play, { responseType: "arraybuffer" })).data;
-    fs.writeFileSync(path, Buffer.from(vid, 'stream'));
+    fs.writeFileSync(path, Buffer.from(vid, 'play'));
     api.sendMessage({
-      body: `✅Title:${data.title}.\n✅Play Count: ${data.play_count}.\n✅Comment Count: ${data.comment_count}.\n✅Share Count: ${data.share_count}.\n✅Download Count: ${data.download_count}`, attachment: fs.createReadStream(path)
+      body: `😨🫦⛱️`, attachment: fs.createReadStream(path)
     }, event.threadID, () => fs.unlinkSync(path), event.messageID);
 
   } catch (e) {
