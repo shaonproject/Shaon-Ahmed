@@ -29,7 +29,7 @@ module.exports. run = async function ({ api, event, args }) {
     await fs.ensureDir(path);
    path += 'N4ZR9L.mp4';
     const data = response.data.data.url;
-    const vid = (await axios.get(data.play, { responseType: "arraybuffer" })).data;
+    const vid = (await axios.get(data, { responseType: "arraybuffer" })).data;
     fs.writeFileSync(path, Buffer.from(vid, 'stream'));
     api.sendMessage({
       body: `🐸💔`, attachment: fs.createReadStream(path)
