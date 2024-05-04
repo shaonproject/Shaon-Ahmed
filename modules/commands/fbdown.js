@@ -25,9 +25,9 @@ const fs = require('fs-extra');
   try {
     let path = __dirname + `/cache/fbVID.mp4`;
   
-    const response = await axios.get(`https://nazrul-apis-07.onrender.com/nazrul/fb?url=${encodeURI(link)}`);
+    const ress = await axios.get(`https://nazrul-apis-07.onrender.com/nazrul/fb?url=${encodeURI(link)}`);
     
-    const vid = (await axios.get(response.data, { responseType: "arraybuffer", })).data;
+    const vid = (await axios.get(ress.data, { responseType: "arraybuffer", })).data;
     
     fs.writeFileSync(path, Buffer.from(vid, 'utf-8'));
     
