@@ -13,7 +13,7 @@ module.exports.config = {
   }
 };
 
-  module.exports.handleEvent = async function ({ api, event, args }) {
+  module.exports.run = async function ({ api, event, args }) {
   const axios = require("axios");
   const fs = require("fs-extra");
  const content = event.body ? event.body : '';
