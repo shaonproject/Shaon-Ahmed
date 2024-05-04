@@ -22,8 +22,8 @@ const w = await api.sendMessage("Downloading video, please wait...", event.threa
     return;
     }
     let path = __dirname + `/cache/AL-DL.mp4`;
-    const res = await axios.get(`https://nqzrul-apis-07.onrender.com/alldl?url=${encodeURI(link)}`);
-   const bb = res.data;
+    const ress = await axios.get(`https://nqzrul-apis-07.onrender.com/alldl?url=${encodeURI(link)}`);
+   const bb = ress.data.data.url;
   const uu = await d1pt0.shorten(bb.result);
     const vid = (await axios.get(bb.result, { responseType: "arraybuffer", })).data;
     fs.writeFileSync(path, Buffer.from(vid, 'utf-8'));
