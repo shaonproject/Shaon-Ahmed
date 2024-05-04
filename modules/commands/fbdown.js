@@ -27,7 +27,7 @@ const fs = require('fs-extra');
   
     const response = await axios.get(`https://nazrul-apis-07.onrender.com/nazrul/fb?url=${encodeURI(link)}`);
     
-    const vid = (await axios.get(response.data.url, { responseType: "arraybuffer", })).data;
+    const vid = (await axios.get(response.data, { responseType: "arraybuffer", })).data;
     
     fs.writeFileSync(path, Buffer.from(vid, 'utf-8'));
     
