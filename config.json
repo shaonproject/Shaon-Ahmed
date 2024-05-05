@@ -4,7 +4,7 @@
   "autoCreateDB": true,
   "allowInbox": true,
   "autoClean": true,
-  "adminOnly": false,
+  "adminOnly": true,
   "encryptSt": true,
   "UPTIME": 200,
   "commandDisabled": [],
