@@ -3,7 +3,7 @@ module.exports.config = {
 	version: "1.0.1", 
 	hasPermssion: 0,
 	usePrefix: false,
-	credits: "Joshua Sy", //don't change the credits please
+	credits: "Nazrul", //don't change the credits please
 	description: "Admin and Bot info.",
 	commandCategory: "info",
 	cooldowns: 1,
@@ -24,11 +24,11 @@ const time = process.uptime(),
 		seconds = Math.floor(time % 60);
 const moment = require("moment-timezone");
 var juswa = moment.tz("Asia/Dhaka").format("『D/MM/YYYY』 【hh:mm:ss】");
-var link = ["https://i.postimg.cc/0QVC9hxK/Picsart-23-11-05-22-15-56-309.jpg", 
+var link = ["https://i.postimg.cc/L6Cqn397/received-3747856995498707.jpg", 
             
-            "https://i.postimg.cc/prgzTHSr/20231219-151553.jpg", 
+            "https://i.postimg.cc/L6Cqn397/received-3747856995498707.jpg", 
             
-            "https://i.postimg.cc/CKFDdJcG/1712906934720.jpg",
+            "https://i.postimg.cc/L6Cqn397/received-3747856995498707.jpg",
 
 "",
             
