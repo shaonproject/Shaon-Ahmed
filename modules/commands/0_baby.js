@@ -5,9 +5,9 @@ module.exports.config = {
     aliases: ["baby", "bbe", "babe" ],
     version: "6.9.0",
     credits: "dipto",
+    usePrefix:true,
     cooldowns: 0,
     hasPermssion: 0,
-    usePrefix: true,
     description: "Chat with bot",
     commandCategory: "chat",
     usages: "{pn}[anyMessage] teach [YourMessage] - [Reply1], [Reply2], [Reply3]... OR remove [YourMessage] OR remove [YourMessage] - [indexNumber] or msg or list OR edit [YourMessage] - [NewReply]"
@@ -101,7 +101,7 @@ const link = "https://noobs-api.onrender.com/dipto/baby";
         const data = response.data.reply;
         api.sendMessage(`${data}`, event.threadID, event.messageID);
            }
-        catch (e){
+      } catch (e){
         console.log(e)
         api.sendMessage("Check console for error ",event.threadID,event.messageID);
       }
