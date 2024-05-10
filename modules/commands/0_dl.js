@@ -10,7 +10,7 @@ module.exports = {
     cooldowns: 2,
     hasPermission: 0,
     description: "Download video from tiktok, facebook, Instagram, YouTube, and more",
-    commmandCategory: "media",
+    commandCategory: "media",
     usage: {
       en: "[video_link]"
     }
