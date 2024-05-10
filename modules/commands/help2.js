@@ -3,7 +3,7 @@ module.exports.config = {
   'version': "2.0.0",
   'hasPermssion': 0x0,
   'credits': "Loid Butter",
-   usePrefix: false,
+   usePrefix: true,
   'description': "commands list",
   'commandCategory': "system",
   'usages': "module name",
@@ -127,8 +127,8 @@ module.exports.run = function ({
     const _0x563f59 = _0xe5abb7.slice(_0x1d8a09, _0x1d8a09 + 9999);
     for (let _0x51e208 of _0x563f59) _0x2adbe0 += '『' + ++_0x4b55b7 + "』╰┈➤》/" + _0x51e208 + "👿\n";
     const _0x290493 = " 》『𝗡𝗔𝗭𝗥𝗨𝗟 𝗣𝗥𝗢𝗝𝗘𝗖𝗧 𝗛𝗘𝗟𝗣 𝗟𝗜𝗦𝗧』《\nPage 『" + _0x30eca5 + '/' + Math.ceil(_0xe5abb7.length / 9999) + '』';
-    const _0x54ae6a = "\n🔥━━━━━━━━━━━━━━━━🔥\n\n╰┈➤👉2023👿" + global.config.BOTNAME + " 𝗕𝗢𝗧\n\n𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥: 𝗡𝗔𝗭𝗥𝗨𝗟\n\n❈:𝗖𝗢𝗠𝗠𝗔𝗡𝗗 𝗟𝗘𝗡𝗚𝗧𝗛: " + _0xe5abb7.length + "\n✥:𝗕𝗢𝗧 𝗡𝗔𝗠𝗘: " + global.config.BOTNAME + "\n❅:𝗣𝗥𝗘𝗙𝗜𝗫: " + global.config.PREFIX + "\n✥:𝗢𝗪𝗡𝗘𝗥 𝗙𝗕:https://www.facebook.com/YOUR.CRUSH.9K.AHAMED.007";
-    var _0x4c45d2 = ["https://i.imgur.com/5cx5fIG.jpg", "https://i.imgur.com/5cx5fIG.jpg", "https://i.imgur.com/5cx5fIG.jpg", "https://i.imgur.com/5cx5fIG.jpg"];
+    const _0x54ae6a = "\n🔥━━━━━━━━━━━━━━━━🔥\n\n╰┈➤👉2023👿" + global.config.BOTNAME + " 𝗕𝗢𝗧\n\n𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥: 𝗡𝗔𝗭𝗥𝗨𝗟\n\n❈:𝗖𝗢𝗠𝗠𝗔𝗡𝗗 𝗟𝗘𝗡𝗚𝗧𝗛: " + _0xe5abb7.length + "\n✥:𝗕𝗢𝗧 𝗡𝗔𝗠𝗘: " + global.config.BOTNAME + "\n❅:𝗣𝗥𝗘𝗙𝗜𝗫: " + global.config.PREFIX + "\n✥:𝗢𝗪𝗡𝗘𝗥 𝗙𝗕:https://www.facebook.com/Nazrul.404.Cyber";
+    var _0x4c45d2 = ["https://i.postimg.cc/fbz5shKX/Picsart-24-05-10-20-14-42-785.jpg", "https://i.postimg.cc/fbz5shKX/Picsart-24-05-10-20-14-42-785.jpg", "https://i.postimg.cc/fbz5shKX/Picsart-24-05-10-20-14-42-785.jpg", "https://i.postimg.cc/fbz5shKX/Picsart-24-05-10-20-14-42-785.jpg"];
     var _0x173f56 = () => _0x584fbd.sendMessage({
       'body': _0x290493 + "\n\n" + _0x2adbe0 + _0x54ae6a,
       'attachment': _0x536e3c.createReadStream(__dirname + "/cache/loidbutter.jpg")
