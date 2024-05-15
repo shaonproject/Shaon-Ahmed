@@ -32,7 +32,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
   
   if (event.body.indexOf("Bot") == 0 || (event.body.indexOf("bot") == 0)) {
     var msg = {
-      body: `\n𝐍𝐚𝐦𝐞           : ➤ 〚 ${name} 〛                                                         \n𝐁𝐨𝐭 𝐏𝐫𝐞𝐟𝐢𝐱    : ➤ 【 ${global.config.PREFIX} 】                                                        \n╰💌➤ 🗣️ ${rand}`
+      body: `\n𝐍𝐚𝐦𝐞 : ➤ 〚 ${name} 〛                                                         \n𝐁𝐨𝐭 𝐏𝐫𝐞𝐟𝐢𝐱 : ➤ 【 ${global.config.PREFIX} 】                                                        \n╰💌➤ 🗣️ ${rand}`
     }
     return api.sendMessage(msg, threadID, messageID);
   };
