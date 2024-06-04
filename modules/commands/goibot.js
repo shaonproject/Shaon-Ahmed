@@ -25,7 +25,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("-  𝐔𝐟𝐟'𝐬 𝐀𝐦𝐚𝐫 𝐁𝐚𝐛𝐮 𝐓𝐚𝐡 🐥","- ইসস আমার সোনা বাবু টা 🙊", threadID);
    };
 
-    if ((event.body.toLowerCase() == "Nazrul Vai") || (event.body.toLowerCase() == "Vai")) {
+    if ((event.body.toLowerCase() == "Hussain Vai") || (event.body.toLowerCase() == "Vai")) {
      return api.sendMessage("𝐇𝐮𝐦 𝐁𝐨𝐥𝐞𝐧 𝐒𝐮𝐧𝐜𝐢 🐥💫", threadID);
    };
    mess = "{name}"
