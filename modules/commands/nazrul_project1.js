@@ -42,7 +42,7 @@ module.exports.config = {
       responseType: "stream"
     })).data;
     return e.sendMessage({
-      body: `ミ╰*•.- 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥¸♡ 𝑎𝑝𝑖 𝑏𝑦 𝑁𝐴𝑍𝑅𝑈𝐿 ︵❣`,
+      body: `ミ╰*•.- 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥¸♡ 𝑏𝑦 𝑁𝐴𝑍𝑅𝑈𝐿 ︵❣`,
       attachment: t
     }, a.threadID, a.messageID)
   }
@@ -50,50 +50,50 @@ module.exports.config = {
   function linkanh() {
         const p = require("axios");
         if ("1" == a.body)
-            var h = "https://nazrul-apis-07.onrender.com/video/status2";
+            var h = "https://nazrul-apis-09.onrender.com/video/status2";
         else if ("2" == a.body)
-         var   h = "https://nazrul-apis-07.onrender.com/video/natural";
+         var   h = "https://nazrul-apis-09.onrender.com/video/natural";
         else if ("3" == a.body)
-         var   h = "https://nazrul-apis-07.onrender.com/video/islam";
+         var   h = "https://nazrul-apis-09.onrender.com/video/islam";
         else if ("4" == a.body)
-          var  h = "https://nazrul-apis-07.onrender.com/video/love";
+          var  h = "https://nazrul-apis-09.onrender.com/video/love";
         else if ("5" == a.body)
-          var  h = "https://nazrul-apis-07.onrender.com/video/sura";
+          var  h = "https://nazrul-apis-09.onrender.com/video/sura";
         else if ("6" == a.body)
-          var  h = "vlhttps://nazrul-apis-07.onrender.com/video/status";
+          var  h = "vlhttps://nazrul-apis-09.onrender.com/video/status";
         else if ("7" == a.body)
-          var  h = "https://nazrul-apis-07.onrender.com/video/ff";
+          var  h = "https://nazrul-apis-09.onrender.com/video/ff";
         else if ("8" == a.body)
-          var  h = "https://nazrul-apis-07.onrender.com/video/sad";
+          var  h = "https://nazrul-apis-09.onrender.com/video/sad";
         else if ("9" == a.body)
-         var   h = "https://nazrul-apis-07.onrender.com/video/anime";
+         var   h = "https://nazrul-apis-09.onrender.com/video/anime";
         else if ("10" == a.body)
-         var  h = "https://nazrul-apis-07.onrender.com/video/short";
+         var  h = "https://nazrul-apis-09.onrender.com/video/short";
           else if ("11" == a.body)
-           var  h = "https://nazrul-apis-07.onrender.com/video/cpl";
+           var  h = "https://nazrul-apis-09.onrender.com/video/cpl";
           else if ("12" == a.body)
-          var  h = "https://nazrul-apis-07.onrender.com/video/baby";
+          var  h = "https://nazrul-apis-09.onrender.com/video/baby";
          else if ("13" == a.body)
-         var  h = "https://nazrul-apis-07.onrender.com/video/hot";
+         var  h = "https://nazrul-apis-09.onrender.com/video/hot";
          else if ("14" == a.body)
-         var  h = "https://nazrul-apis-07.onrender.com/video/sex";
+         var  h = "https://nazrul-apis-09.onrender.com/video/sex";
          else if ("15" == a.body)
-         var  h = "https://nazrul-apis-07.onrender.com/video/horny";
+         var  h = "https://nazrul-apis-09.onrender.com/video/horny";
            else if ("16" == a.body)
          var  h =
-"https://nazrul-apis-07.onrender.com/video/item";
+"https://nazrul-apis-09.onrender.com/video/item";
     else if ("0" == a.body)
          var  h =
-"https://nazrul-apis-07.onrender.com/video/attitude";
+"https://nazrul-apis-09.onrender.com/video/attitude";
     else if ("18" == a.body)
          var  h =
-"https://nazrul-apis-07.onrender.com/video/item";
+"https://nazrul-apis-09.onrender.com/video/item";
     else if ("19" == a.body)
          var  h =
-"https://nazrul-apis-07.onrender.com/video/hot";
+"https://nazrul-apis-09.onrender.com/video/hot";
     else if ("20" == a.body)
          var  h =
-"https://nazrul-apis-07.onrender.com/video/capcut";
+"https://nazrul-apis-09.onrender.com/video/capcut";
         return { p, h };
     }
 };
