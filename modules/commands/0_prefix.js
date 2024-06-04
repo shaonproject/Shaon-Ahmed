@@ -21,7 +21,7 @@ module.exports.handleEvent = async ({ api, event }) => {
   if (isEnable == "true"){
   const dipto2 = event.body ? event.body.toLowerCase() : '';
    // const GP = "╭•┄┅════❁🌺❁════┅┄•╮\n${GP}\n╰•┄┅════❁🌺❁════┅┄•╯\n\n"; 
-  //𝗡𝗔𝗭𝗥𝗨𝗟 𝗫 𝗣𝗥𝗢𝗝𝗘𝗖𝗧"
+  //𝙃𝙐𝙎𝙎𝘼𝙄𝙉 𝗫 𝗣𝗥𝗢𝗝𝗘𝗖𝗧"
      let d1PInfo = await api.getThreadInfo(event.threadID);
   let diptoName = d1PInfo.threadName;
     var time = moment.tz("Asia/Dhaka").format("LLLL");
