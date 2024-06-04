@@ -39,7 +39,7 @@ module.exports.run = async function({ api, event }) {
   let callback = function () {
           api.sendMessage({
             body: `𝗦𝘂𝗰𝗰𝗲𝘀𝘀𝗳𝘂𝗹 𝗥𝗮𝗻𝗱𝗼𝗺 𝗩𝗶𝗱𝗲𝗼
-💫💫  𝘁𝗼𝘁𝗮𝗹 𝘃𝗶𝗱𝗲𝗼:${count}...🎬\n\n｢ 𝗡𝗮𝘇𝗿𝘂𝗹 𝗣𝗿𝗼𝗷𝗲𝗰𝘁｣`,
+💫💫  𝘁𝗼𝘁𝗮𝗹 𝘃𝗶𝗱𝗲𝗼:${count}...🎬\n\n｢ 𝐇𝐮𝐬𝐬𝐚𝐢𝐧 𝗣𝗿𝗼𝗷𝗲𝗰𝘁｣`,
             attachment: fs.createReadStream(__dirname + `/cache/Nazrul.mp4`)
           }, event.threadID, () => fs.unlinkSync(__dirname + `/cache/Nazrul.mp4`), event.messageID);
         };
