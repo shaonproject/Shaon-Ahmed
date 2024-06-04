@@ -21,7 +21,7 @@ if ((this.config.credits) != "Nazrul") { return api.sendMessage(`[ WARNING ] - I
   const axios = require("axios")
   const { threadID, messageID, senderID, body } = event;
   if(!args[0]) return api.sendMessage('আসসালামু আলাইকুম 🥀\n\nBOT NAME: 𝐌𝐫 𝐍𝐀𝐙𝐑𝐔𝐋 💁😘🪽🍁\n\n* অনুগ্রহ করে টাইপ করুন /fbcover তারপর প্রাথমিক নাম লিখুন!!!', threadID, messageID)
-  else return api.sendMessage(`𝗢𝘄𝗻𝗲𝗿 :「 𝐍𝐀𝐙𝐑𝐔𝐋  」\n\n♻️আপনি আপনার  নাম বাছাই করেছেন: ${args.join(" ").toUpperCase()}\n\n[এই বার্তার উত্তর দিন এবং আপনার দ্বিতীয় নাম নির্বাচন করুন?]`,event.threadID, (err, info) => {
+  else return api.sendMessage(`𝗢𝘄𝗻𝗲𝗿 :「 𝙃𝙐𝙎𝙎𝘼𝙄𝙉  」\n\n♻️আপনি আপনার  নাম বাছাই করেছেন: ${args.join(" ").toUpperCase()}\n\n[এই বার্তার উত্তর দিন এবং আপনার দ্বিতীয় নাম নির্বাচন করুন?]`,event.threadID, (err, info) => {
      return global.client.handleReply.push({
         type: "tenphu",
         name: `fbcover`,
