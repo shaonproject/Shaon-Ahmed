@@ -20,7 +20,7 @@ module.exports.run = async({api,event,args,client,Users,Threads,__GLOBAL,Currenc
 const axios = global.nodemodule["axios"];
 const request = global.nodemodule["request"];
 const fs = global.nodemodule["fs-extra"];
-   var hi = ["☆《HORNY VIDEO》☆ // 「 𝐍𝐀𝐙𝐑𝐔𝐋  」 😋"];
+   var hi = ["☆《HORNY VIDEO》☆ // 「 𝙃𝙐𝙎𝙎𝘼𝙄𝙉  」 😋"];
   var know = hi[Math.floor(Math.random() * hi.length)];
   var link = [ "https://drive.google.com/uc?id=1ABtEvo3Cvls7pkA4e937k9aNAL_YJc8Q",
   "https://drive.google.com/uc?id=1AFXbiWAIh90KQOqVYxHWHmv-3NKmJ76a",
