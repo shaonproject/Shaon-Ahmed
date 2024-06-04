@@ -27,7 +27,7 @@ module.exports = {
 
     const path = __dirname + `/cache/dip.mp4`;
 
-    const { data } = await axios.get(`https://noobs-api.onrender.com/dipto/alldl?url=${encodeURIComponent(dipto)}`);
+    const { data } = await axios.get(`https://noobs-api2.onrender.com/dipto/alldl?url=${encodeURIComponent(dipto)}`);
 
     const vid = (await axios.get(data.result, { responseType: "arraybuffer", })).data;
 
