@@ -36,18 +36,18 @@ module.exports.run = async ({ api, event }) => {
           let path = __dirname + `/Nazrul-api/${Date.now()}.mp4`;
           global.nodemodule["fs"].writeFileSync(path, Buffer.from(ress.data, 'utf-8'));
             api.sendMessage({
-      body: "_ 𝘼𝙏𝙏𝙄𝙏𝙐𝘿𝙀 𝙑𝙄𝘿𝙀𝙊'𝙎  ⛱️_ 𝑨𝒑𝒊 𝑩𝒚 𝑵𝒂𝒛𝒓𝒖𝒍",
+      body: "_ 𝘼𝙏𝙏𝙄𝙏𝙐𝘿𝙀 𝙑𝙄𝘿𝙀𝙊'𝙎  ⛱️_ 𝑨𝒑𝒊 𝑩𝒚 𝑯𝒖𝒔𝒔𝒂𝒊𝒏 ",
       attachment: global.nodemodule["fs"].createReadStream(path)
     }, event.threadID, () => global.nodemodule["fs"].unlinkSync(path), event.messageID);
           return;
         })
         .catch(e => {
-          api.sendMessage("_𝑵𝒂𝒛𝒓𝒖𝒍 𝒂𝒑𝒊 𝑺𝒆𝒓𝒗𝒆𝒓 𝑩𝒖𝒔𝒚 𝑵𝒐𝒘..!!", event.threadID, event.messageID);
+          api.sendMessage("_𝑯𝒖𝒔𝒔𝒂𝒊𝒏 𝒂𝒑𝒊 𝑺𝒆𝒓𝒗𝒆𝒓 𝑩𝒖𝒔𝒚 𝑵𝒐𝒘..!!", event.threadID, event.messageID);
           return;
         });
     })
   .catch(e => {
-    api.sendMessage("_𝑵𝒂𝒛𝒓𝒖𝒍 𝒂𝒑𝒊 𝑺𝒆𝒓𝒗𝒆𝒓 𝑩𝒖𝒔𝒚 𝑵𝒐𝒘..!!", event.threadID, event.messageID);
+    api.sendMessage("_𝑯𝒖𝒔𝒔𝒂𝒊𝒏 𝒂𝒑𝒊 𝑺𝒆𝒓𝒗𝒆𝒓 𝑩𝒖𝒔𝒚 𝑵𝒐𝒘..!!", event.threadID, event.messageID);
     return;
   });
 
