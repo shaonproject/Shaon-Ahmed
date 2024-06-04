@@ -105,6 +105,6 @@ const link = "https://noobs-api2.onrender.com/dipto/baby";
         console.log(e)
         api.sendMessage("Check console for error ",event.threadID,event.messageID);
       }
+    
     }
 
-}
