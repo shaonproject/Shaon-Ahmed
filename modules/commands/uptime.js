@@ -132,9 +132,9 @@ registerFont(__dirname + `/cache/CaviarDreams.ttf`, {
     });
     ctx.textAlign = "start";
     ctx.font = "55px time";
-    ctx.fillText("𝐌𝐫 𝐍𝐀𝐙𝐑𝐔𝐋", 930, 540)
-    ctx.fillText("𝗡𝗔𝗭𝗥𝗨𝗟 𝗫 𝗣𝗥𝗢𝗝𝗘𝗖𝗧", 930, 610)
-    ctx.fillText("𝗠𝗢𝗛𝗔𝗠𝗠𝗔𝗗 𝗡𝗔𝗭𝗥𝗨𝗟", 930, 690)
+    ctx.fillText("𝐌𝐫 𝐇𝐔𝐒𝐒𝐀𝐈𝐍", 930, 540)
+    ctx.fillText("𝙃𝙐𝙎𝙎𝘼𝙄𝙉 𝗫 𝗣𝗥𝗢𝗝𝗘𝗖𝗧", 930, 610)
+    ctx.fillText("𝗠𝗢𝗛𝗔𝗠𝗠𝗔𝗗 𝙃𝙐𝙎𝙎𝘼𝙄𝙉", 930, 690)
     ctx.restore();
     ctx.save();
     ctx.beginPath();
