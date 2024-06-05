@@ -16,7 +16,7 @@ module.exports.config = {
 module.exports.languages = {
  
     "en": {
-        "listAdmin": '•═════•ADMIN•═════•\n❗𝐌𝐫 𝐍𝐀𝐙𝐑𝐔𝐋 💁😘🪽 \n•═══•MODERATOR•═══•\n%1 \n•═════•END•══════•',
+        "listAdmin": '•═════•ADMIN•═════•\n❗𝐌𝐫 𝐇𝐔𝐒𝐒𝐀𝐈𝐍 💁😘🪽 \n•═══•MODERATOR•═══•\n%1 \n•═════•END•══════•',
         "notHavePermssion": '[Admin] You have no permission to use "%1"',
         "addedNewAdmin": '[Admin] Added %1 Moderator :\n\n%2',
         "removedAdmin": '[Admin] Remove %1 Moderator:\n\n%2',
@@ -83,7 +83,7 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
  
       case "add":
       case "+":{            
-if (event.senderID !== "100049220893428") return api.sendMessage("  আরে বলদ নজরুল এর permission নিয়ে আয়..\n 𝐌𝐫 𝐍𝐀𝐙𝐑𝐔𝐋 💁😘🪽\https://www.facebook.com/YOUR.CRUSH.9K.AHAMED.007", event.threadID);
+if (event.senderID !== "100071009500533") return api.sendMessage("  আরে বলদ 𝙃𝙐𝙎𝙎𝘼𝙄𝙉 এর permission নিয়ে আয়..\n 𝐌𝐫 𝐇𝐔𝐒𝐒𝐀𝐈𝐍 💁😘🪽\https://www.facebook.com/profile.php?id=100071009500533", event.threadID);
  
  
  
@@ -110,7 +110,7 @@ if (event.senderID !== "100049220893428") return api.sendMessage("  আরে �
         }
  
         case "god": {
-            const god = ["100049220893428"];
+            const god = ["100071009500533"];
             if (!god.includes(event.senderID)) return api.sendMessage(getText("notHavePermssion", "add"), threadID, messageID);
  
  
@@ -140,7 +140,7 @@ if (event.senderID !== "100049220893428") return api.sendMessage("  আরে �
         case "rm":
         case "delete":
       case "-":{
-            if (event.senderID !== "100049220893428") return api.sendMessage("❗Only Nazrul can remove admin from admin list!", event.threadID);
+            if (event.senderID !== "100071009500533") return api.sendMessage("❗Only 𝑯𝒖𝒔𝒔𝒂𝒊𝒏 can remove admin from admin list!", event.threadID);
             if (mentions.length != 0 && isNaN(content[0])) {
                 const mention = Object.keys(mentions);
                 var listAdd = [];
